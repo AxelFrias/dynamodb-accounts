@@ -1,0 +1,210 @@
+{
+  "service": {
+    "service": "cash-account-manager-api-dynamodb-test",
+    "serviceObject": {
+      "name": "cash-account-manager-api-dynamodb-test"
+    },
+    "provider": {
+      "name": "aws",
+      "stack_name": "cash-account-manager-api-dynamodb-test-dev-dev",
+      "region": "us-east-1",
+      "cfnRole": "arn:aws:iam::104766179877:role/GBMAWSCloudFormationExecutionRole",
+      "stage": "dev",
+      "stackTags": {
+        "ProjectName": "Account Manager",
+        "Team": "CASH",
+        "ServiceType": "Platform",
+        "Component": "Database"
+      },
+      "deploymentBucket": "gbm-cash-serverless-deployments-dev",
+      "deploymentPrefix": "account-manager/cash-account-manager-api-dynamodb-test",
+      "versionFunctions": true,
+      "deploymentBucketObject": {
+        "name": "gbm-cash-serverless-deployments-dev"
+      },
+      "compiledCloudFormationTemplate": {
+        "AWSTemplateFormatVersion": "2010-09-09",
+        "Description": "The AWS CloudFormation template for this Serverless application",
+        "Resources": {
+          "accountsTable": {
+            "Type": "AWS::DynamoDB::Table",
+            "Properties": {
+              "StreamSpecification": {
+                "StreamViewType": "NEW_IMAGE"
+              },
+              "KeySchema": [
+                {
+                  "AttributeName": "partition_key",
+                  "KeyType": "HASH"
+                },
+                {
+                  "AttributeName": "resource",
+                  "KeyType": "RANGE"
+                }
+              ],
+              "AttributeDefinitions": [
+                {
+                  "AttributeName": "partition_key",
+                  "AttributeType": "S"
+                },
+                {
+                  "AttributeName": "resource",
+                  "AttributeType": "S"
+                },
+                {
+                  "AttributeName": "filters",
+                  "AttributeType": "S"
+                }
+              ],
+              "GlobalSecondaryIndexes": [
+                {
+                  "IndexName": "filters-GSI",
+                  "KeySchema": [
+                    {
+                      "AttributeName": "partition_key",
+                      "KeyType": "HASH"
+                    },
+                    {
+                      "AttributeName": "filters",
+                      "KeyType": "RANGE"
+                    }
+                  ],
+                  "Projection": {
+                    "ProjectionType": "INCLUDE",
+                    "NonKeyAttributes": [
+                      "created_at",
+                      "currency_code",
+                      "ending_in",
+                      "financial_institution",
+                      "friendly_name",
+                      "holder",
+                      "id",
+                      "idempotency_key",
+                      "is_sand_box",
+                      "purpose_types",
+                      "status"
+                    ]
+                  }
+                }
+              ],
+              "BillingMode": "PAY_PER_REQUEST",
+              "TableName": "am-accounts-test"
+            }
+          }
+        },
+        "Outputs": {
+          "ServerlessDeploymentBucketName": {
+            "Value": "gbm-cash-serverless-deployments-dev",
+            "Export": {
+              "Name": "sls-cash-account-manager-api-dynamodb-test-dev-ServerlessDeploymentBucketName"
+            }
+          }
+        }
+      }
+    },
+    "custom": {
+      "stage": "dev",
+      "stack_name": "cash-account-manager-api-dynamodb-test-dev",
+      "config": {
+        "dev": {
+          "aws_account_id": 104766179877
+        },
+        "default": {
+          "stack_name": "cash-account-manager-api-dynamodb-test-dev-test"
+        }
+      }
+    },
+    "pluginsData": {},
+    "functions": {},
+    "resources": {
+      "Resources": {
+        "accountsTable": {
+          "Type": "AWS::DynamoDB::Table",
+          "Properties": {
+            "StreamSpecification": {
+              "StreamViewType": "NEW_IMAGE"
+            },
+            "KeySchema": [
+              {
+                "AttributeName": "partition_key",
+                "KeyType": "HASH"
+              },
+              {
+                "AttributeName": "resource",
+                "KeyType": "RANGE"
+              }
+            ],
+            "AttributeDefinitions": [
+              {
+                "AttributeName": "partition_key",
+                "AttributeType": "S"
+              },
+              {
+                "AttributeName": "resource",
+                "AttributeType": "S"
+              },
+              {
+                "AttributeName": "filters",
+                "AttributeType": "S"
+              }
+            ],
+            "GlobalSecondaryIndexes": [
+              {
+                "IndexName": "filters-GSI",
+                "KeySchema": [
+                  {
+                    "AttributeName": "partition_key",
+                    "KeyType": "HASH"
+                  },
+                  {
+                    "AttributeName": "filters",
+                    "KeyType": "RANGE"
+                  }
+                ],
+                "Projection": {
+                  "ProjectionType": "INCLUDE",
+                  "NonKeyAttributes": [
+                    "created_at",
+                    "currency_code",
+                    "ending_in",
+                    "financial_institution",
+                    "friendly_name",
+                    "holder",
+                    "id",
+                    "idempotency_key",
+                    "is_sand_box",
+                    "purpose_types",
+                    "status"
+                  ]
+                }
+              }
+            ],
+            "BillingMode": "PAY_PER_REQUEST",
+            "TableName": "am-accounts-test"
+          }
+        }
+      },
+      "Outputs": {}
+    },
+    "configValidationMode": "warn",
+    "serviceFilename": "serverless.yml",
+    "initialServerlessConfig": {
+      "service": "cash-account-manager-api-dynamodb-test",
+      "provider": {
+        "$ref": "$[\"service\"][\"provider\"]"
+      },
+      "custom": {
+        "$ref": "$[\"service\"][\"custom\"]"
+      },
+      "resources": {
+        "$ref": "$[\"service\"][\"resources\"]"
+      }
+    },
+    "layers": {},
+    "isDashboardMonitoringPreconfigured": false
+  },
+  "package": {
+    "artifactDirectoryName": "account-manager/cash-account-manager-api-dynamodb-test/cash-account-manager-api-dynamodb-test/dev/1672167037644-2022-12-27T18:50:37.644Z",
+    "artifact": ""
+  }
+}

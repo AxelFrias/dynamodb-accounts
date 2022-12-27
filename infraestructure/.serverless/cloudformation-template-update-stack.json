@@ -1,0 +1,79 @@
+{
+  "AWSTemplateFormatVersion": "2010-09-09",
+  "Description": "The AWS CloudFormation template for this Serverless application",
+  "Resources": {
+    "accountsTable": {
+      "Type": "AWS::DynamoDB::Table",
+      "Properties": {
+        "StreamSpecification": {
+          "StreamViewType": "NEW_IMAGE"
+        },
+        "KeySchema": [
+          {
+            "AttributeName": "partition_key",
+            "KeyType": "HASH"
+          },
+          {
+            "AttributeName": "resource",
+            "KeyType": "RANGE"
+          }
+        ],
+        "AttributeDefinitions": [
+          {
+            "AttributeName": "partition_key",
+            "AttributeType": "S"
+          },
+          {
+            "AttributeName": "resource",
+            "AttributeType": "S"
+          },
+          {
+            "AttributeName": "filters",
+            "AttributeType": "S"
+          }
+        ],
+        "GlobalSecondaryIndexes": [
+          {
+            "IndexName": "filters-GSI",
+            "KeySchema": [
+              {
+                "AttributeName": "partition_key",
+                "KeyType": "HASH"
+              },
+              {
+                "AttributeName": "filters",
+                "KeyType": "RANGE"
+              }
+            ],
+            "Projection": {
+              "ProjectionType": "INCLUDE",
+              "NonKeyAttributes": [
+                "created_at",
+                "currency_code",
+                "ending_in",
+                "financial_institution",
+                "friendly_name",
+                "holder",
+                "id",
+                "idempotency_key",
+                "is_sand_box",
+                "purpose_types",
+                "status"
+              ]
+            }
+          }
+        ],
+        "BillingMode": "PAY_PER_REQUEST",
+        "TableName": "am-accounts-test"
+      }
+    }
+  },
+  "Outputs": {
+    "ServerlessDeploymentBucketName": {
+      "Value": "gbm-cash-serverless-deployments-dev",
+      "Export": {
+        "Name": "sls-cash-account-manager-api-dynamodb-test-dev-ServerlessDeploymentBucketName"
+      }
+    }
+  }
+}

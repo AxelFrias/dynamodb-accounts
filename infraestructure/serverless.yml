@@ -1,0 +1,36 @@
+#------------------------------------------------------------------------------
+#
+# Copyright GBM GRUPO BURSÁTIL MEXICANO, S.A DE C.V., CASA DE BOLSA
+#
+# File: serverless.yml
+# Purpose: Database Infrastructure as Code for Serverless Deployment of Account Manager
+#------------------------------------------------------------------------------
+
+service: cash-account-manager-api-dynamodb-test
+
+provider:
+  name: aws
+  stack_name: ${self:service}-${self:custom.stage}-dev
+  region: us-east-1
+  cfnRole: arn:aws:iam::${self:custom.config.${self:custom.stage}.aws_account_id}:role/GBMAWSCloudFormationExecutionRole
+  stage: ${self:custom.stage}
+  stackTags:
+    ProjectName: Account Manager
+    Team: CASH
+    ServiceType: Platform
+    Component: Database
+  deploymentBucket:
+    name: gbm-cash-serverless-deployments-${self:custom.stage}
+  deploymentPrefix: account-manager/${self:service}
+
+custom:
+  stage: ${opt:stage}
+  stack_name: ${self:service}-${self:custom.stage}
+  config:
+    dev:
+      aws_account_id: 104766179877
+    default:
+      stack_name: ${self:service}-${self:custom.stage}-test
+
+resources:
+  - ${file(./am_accounts_table.yml)}

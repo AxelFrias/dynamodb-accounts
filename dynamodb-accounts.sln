@@ -9,6 +9,10 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "am-accounts-CreateTable", "
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "am-accounts-BulkInsert", "am-accounts-BulkInsert\am-accounts-BulkInsert.csproj", "{813920E8-922D-4907-8FA4-FEDFCB65DC16}"
 EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "services", "services", "{4C3905C6-EFBD-49E3-BDB6-CB476B0E0726}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "am-accounts-Commons", "services\am-accounts-Commons\am-accounts-Commons.csproj", "{7731F73B-EC33-4540-A9FF-8CA202B4A37E}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -30,5 +34,12 @@ Global
 		{813920E8-922D-4907-8FA4-FEDFCB65DC16}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{813920E8-922D-4907-8FA4-FEDFCB65DC16}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{813920E8-922D-4907-8FA4-FEDFCB65DC16}.Release|Any CPU.Build.0 = Release|Any CPU
+		{7731F73B-EC33-4540-A9FF-8CA202B4A37E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7731F73B-EC33-4540-A9FF-8CA202B4A37E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7731F73B-EC33-4540-A9FF-8CA202B4A37E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7731F73B-EC33-4540-A9FF-8CA202B4A37E}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{7731F73B-EC33-4540-A9FF-8CA202B4A37E} = {4C3905C6-EFBD-49E3-BDB6-CB476B0E0726}
 	EndGlobalSection
 EndGlobal
