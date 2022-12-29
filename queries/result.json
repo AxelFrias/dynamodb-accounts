@@ -1,0 +1,39 @@
+{
+    "Items": [
+        {
+            "org_id": {
+                "S": "c68f388b-21bc-4491-bd83-c40d125c1621"
+            },
+            "created_at": {
+                "S": "22/03/2019 12:00:00 a. m."
+            },
+            "partition_key": {
+                "S": "c68f388b-21bc-4491-bd83-c40d125c1621#2589e7c2-3f33-4d44-8714-fcfa11eded0e#f2d6d6ee-b767-47b5-84f3-186003d0cbe7"
+            },
+            "ending_in": {
+                "S": "80289"
+            },
+            "currency_code": {
+                "S": "MXN"
+            },
+            "filters": {
+                "S": "ACCOUNT"
+            },
+            "id": {
+                "S": "f2d6d6ee-b767-47b5-84f3-186003d0cbe7"
+            },
+            "corporation_id": {
+                "S": "2589e7c2-3f33-4d44-8714-fcfa11eded0e"
+            },
+            "resource": {
+                "S": "ACCOUNT"
+            }
+        }
+    ],
+    "Count": 1,
+    "ScannedCount": 1,
+    "ConsumedCapacity": {
+        "TableName": "am-accounts-test",
+        "CapacityUnits": 0.5
+    }
+}
