@@ -51,7 +51,7 @@
 
 
             var retval = default(AccountKey);
-            retval.keyValue = filter != string.Empty ? $"{orgId}#{corpId}" : $"{orgId}#{corpId}#{accountId}";
+            retval.keyValue = $"{orgId}#{corpId}#{accountId}";
             retval.KeyName = Id;
 
             return retval.keyValue;

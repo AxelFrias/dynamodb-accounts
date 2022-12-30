@@ -38,7 +38,7 @@
                   "KeyType": "HASH"
                 },
                 {
-                  "AttributeName": "resource",
+                  "AttributeName": "search_resource",
                   "KeyType": "RANGE"
                 }
               ],
@@ -48,7 +48,11 @@
                   "AttributeType": "S"
                 },
                 {
-                  "AttributeName": "resource",
+                  "AttributeName": "search_resource",
+                  "AttributeType": "S"
+                },
+                {
+                  "AttributeName": "org_corp",
                   "AttributeType": "S"
                 },
                 {
@@ -61,7 +65,7 @@
                   "IndexName": "filters-GSI",
                   "KeySchema": [
                     {
-                      "AttributeName": "partition_key",
+                      "AttributeName": "org_corp",
                       "KeyType": "HASH"
                     },
                     {
@@ -70,20 +74,7 @@
                     }
                   ],
                   "Projection": {
-                    "ProjectionType": "INCLUDE",
-                    "NonKeyAttributes": [
-                      "created_at",
-                      "currency_code",
-                      "ending_in",
-                      "financial_institution",
-                      "friendly_name",
-                      "holder",
-                      "id",
-                      "idempotency_key",
-                      "is_sand_box",
-                      "purpose_types",
-                      "status"
-                    ]
+                    "ProjectionType": "ALL"
                   }
                 }
               ],
@@ -130,7 +121,7 @@
                 "KeyType": "HASH"
               },
               {
-                "AttributeName": "resource",
+                "AttributeName": "search_resource",
                 "KeyType": "RANGE"
               }
             ],
@@ -140,7 +131,11 @@
                 "AttributeType": "S"
               },
               {
-                "AttributeName": "resource",
+                "AttributeName": "search_resource",
+                "AttributeType": "S"
+              },
+              {
+                "AttributeName": "org_corp",
                 "AttributeType": "S"
               },
               {
@@ -153,7 +148,7 @@
                 "IndexName": "filters-GSI",
                 "KeySchema": [
                   {
-                    "AttributeName": "partition_key",
+                    "AttributeName": "org_corp",
                     "KeyType": "HASH"
                   },
                   {
@@ -162,20 +157,7 @@
                   }
                 ],
                 "Projection": {
-                  "ProjectionType": "INCLUDE",
-                  "NonKeyAttributes": [
-                    "created_at",
-                    "currency_code",
-                    "ending_in",
-                    "financial_institution",
-                    "friendly_name",
-                    "holder",
-                    "id",
-                    "idempotency_key",
-                    "is_sand_box",
-                    "purpose_types",
-                    "status"
-                  ]
+                  "ProjectionType": "ALL"
                 }
               }
             ],
@@ -204,7 +186,7 @@
     "isDashboardMonitoringPreconfigured": false
   },
   "package": {
-    "artifactDirectoryName": "account-manager/cash-account-manager-api-dynamodb-test/cash-account-manager-api-dynamodb-test/dev/1672167037644-2022-12-27T18:50:37.644Z",
+    "artifactDirectoryName": "account-manager/cash-account-manager-api-dynamodb-test/cash-account-manager-api-dynamodb-test/dev/1672420667657-2022-12-30T17:17:47.657Z",
     "artifact": ""
   }
 }

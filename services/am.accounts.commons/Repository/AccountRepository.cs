@@ -5,6 +5,7 @@ namespace am.accounts.commons.Repository
     using Amazon.DynamoDBv2;
     using Amazon.DynamoDBv2.DataModel;
     using Amazon.DynamoDBv2.Model;
+    using System.Globalization;
 
     public class AccountRepository : IAccountRepository
     {
@@ -42,7 +43,6 @@ namespace am.accounts.commons.Repository
 
             foreach (var filter in filters)
             {
-                account.PartitionKey = AccountKey.CreateForIndexId(account.OrgId, account.CorporationId, account.Id, filter).ToString();
                 request.Add(new WriteRequest
                 {
                     PutRequest = new PutRequest
@@ -60,13 +60,17 @@ namespace am.accounts.commons.Repository
             return new Dictionary<string, AttributeValue>
             {
                 { "partition_key", new AttributeValue { S = account.PartitionKey } },
-                { "resource", new AttributeValue { S = string.Concat("ACCOUNT", filter) }},
+                { "search_resource", new AttributeValue { S = string.IsNullOrEmpty(filter) ? "ACCOUNT" : $"ACCOUNT#{filter}" }},
                 { "corporation_id", new AttributeValue { S = account.CorporationId.ToString() }},
-                { "created_at", new AttributeValue { S = account.CreatedAt.ToString() }},
+                { "created_at", new AttributeValue { S = account.CreatedAt.ToString("yyyy-MM-dd'T'HH:mm:ss.fffK", CultureInfo.InvariantCulture) }},
                 { "currency_code", new AttributeValue { S = account.CurrencyCode }},
                 { "ending_in", new AttributeValue { S = account.EndingIn }},
                 { "id", new AttributeValue { S = account.Id.ToString() }},
                 { "org_id", new AttributeValue { S = account.OrgId.ToString() }},
+                { "number", new AttributeValue { S = account.Number.ToString() }},
+                { "external_id", new AttributeValue { S = account.ExternalId }},
+                { "lorem_contract_id", new AttributeValue { S = account.LoremContractId.ToString() }},
+                { "org_corp", new AttributeValue { S = account.OrgCorp.ToString() }},
                 { "filters", new AttributeValue { S = string.IsNullOrEmpty(filter) ? "ACCOUNT" : filter }}
             };
         }
@@ -77,21 +81,21 @@ namespace am.accounts.commons.Repository
             {
                 string.Empty,
                 // type#creation_date
-                $"#{account.CreatedAt:yyyy-MM-ddTHH:mm:ss}",
+                $"{account.CreatedAt:yyyy-MM-ddTHH:mm:ss}",
                 // type#creation_date
-                $"#{account.Type}#{account.CreatedAt:yyyy-MM-ddTHH:mm:ss}",
+                $"{account.Type}#{account.CreatedAt:yyyy-MM-ddTHH:mm:ss}",
                 // type#status#creation_date
-                $"#{account.Type}#{account.Status}#{account.CreatedAt:yyyy-MM-ddTHH:mm:ss}",
+                $"{account.Type}#{account.Status}#{account.CreatedAt:yyyy-MM-ddTHH:mm:ss}",
                 // type#ownership_type#creation_date
-                $"#{account.Type}#{account.OwnershipType}#{account.CreatedAt:yyyy-MM-ddTHH:mm:ss}",
+                $"{account.Type}#{account.OwnershipType}#{account.CreatedAt:yyyy-MM-ddTHH:mm:ss}",
                 // type#status#ownership_type#creation_date
-                $"#{account.Type}#{account.Status}#{account.OwnershipType}#{account.CreatedAt:yyyy-MM-ddTHH:mm:ss}",
+                $"{account.Type}#{account.Status}#{account.OwnershipType}#{account.CreatedAt:yyyy-MM-ddTHH:mm:ss}",
                 // status#creation_date
-                $"#{account.Status}#{account.CreatedAt:yyyy-MM-ddTHH:mm:ss}",
+                $"{account.Status}#{account.CreatedAt:yyyy-MM-ddTHH:mm:ss}",
                 // status#ownership_type#creation_date
-                $"#{account.Status}#{account.OwnershipType}#{account.CreatedAt:yyyy-MM-ddTHH:mm:ss}",
+                $"{account.Status}#{account.OwnershipType}#{account.CreatedAt:yyyy-MM-ddTHH:mm:ss}",
                 // ownership_type#creation_date
-                $"#{account.OwnershipType}#{account.CreatedAt:yyyy-MM-ddTHH:mm:ss}"
+                $"{account.OwnershipType}#{account.CreatedAt.ToString("yyyy-MM-dd'T'HH:mm:ss.fffK", CultureInfo.InvariantCulture)}"
             };
 
             return filters;

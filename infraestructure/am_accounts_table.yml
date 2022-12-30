@@ -15,19 +15,21 @@ Resources:
       KeySchema:
         - AttributeName: partition_key
           KeyType: HASH
-        - AttributeName: resource
+        - AttributeName: search_resource
           KeyType: RANGE
       AttributeDefinitions:
         - AttributeName: partition_key
           AttributeType: S
-        - AttributeName: resource
+        - AttributeName: search_resource
+          AttributeType: S
+        - AttributeName: org_corp
           AttributeType: S
         - AttributeName: filters
           AttributeType: S
       GlobalSecondaryIndexes:
         - IndexName: filters-GSI
           KeySchema: 
-          - AttributeName: partition_key
+          - AttributeName: org_corp
             KeyType: HASH
           - AttributeName: filters
             KeyType: RANGE

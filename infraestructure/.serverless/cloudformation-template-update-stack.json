@@ -14,7 +14,7 @@
             "KeyType": "HASH"
           },
           {
-            "AttributeName": "resource",
+            "AttributeName": "search_resource",
             "KeyType": "RANGE"
           }
         ],
@@ -24,7 +24,11 @@
             "AttributeType": "S"
           },
           {
-            "AttributeName": "resource",
+            "AttributeName": "search_resource",
+            "AttributeType": "S"
+          },
+          {
+            "AttributeName": "org_corp",
             "AttributeType": "S"
           },
           {
@@ -37,7 +41,7 @@
             "IndexName": "filters-GSI",
             "KeySchema": [
               {
-                "AttributeName": "partition_key",
+                "AttributeName": "org_corp",
                 "KeyType": "HASH"
               },
               {
@@ -46,20 +50,7 @@
               }
             ],
             "Projection": {
-              "ProjectionType": "INCLUDE",
-              "NonKeyAttributes": [
-                "created_at",
-                "currency_code",
-                "ending_in",
-                "financial_institution",
-                "friendly_name",
-                "holder",
-                "id",
-                "idempotency_key",
-                "is_sand_box",
-                "purpose_types",
-                "status"
-              ]
+              "ProjectionType": "ALL"
             }
           }
         ],

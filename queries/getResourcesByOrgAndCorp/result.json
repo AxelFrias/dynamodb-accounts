@@ -1,0 +1,938 @@
+{
+    "Items": [
+        {
+            "org_id": {
+                "S": "c68f388b-21bc-4491-bd83-c40d125c1621"
+            },
+            "created_at": {
+                "S": "22/03/2019 12:00:00 a. m."
+            },
+            "partition_key": {
+                "S": "c68f388b-21bc-4491-bd83-c40d125c1621#2589e7c2-3f33-4d44-8714-fcfa11eded0e"
+            },
+            "ending_in": {
+                "S": "80289"
+            },
+            "currency_code": {
+                "S": "MXN"
+            },
+            "filters": {
+                "S": "#2019-03-22T00:00:00"
+            },
+            "id": {
+                "S": "f2d6d6ee-b767-47b5-84f3-186003d0cbe7"
+            },
+            "corporation_id": {
+                "S": "2589e7c2-3f33-4d44-8714-fcfa11eded0e"
+            },
+            "resource": {
+                "S": "ACCOUNT#2019-03-22T00:00:00"
+            }
+        },
+        {
+            "org_id": {
+                "S": "c68f388b-21bc-4491-bd83-c40d125c1621"
+            },
+            "created_at": {
+                "S": "12/04/2019 12:00:00 a. m."
+            },
+            "partition_key": {
+                "S": "c68f388b-21bc-4491-bd83-c40d125c1621#2589e7c2-3f33-4d44-8714-fcfa11eded0e"
+            },
+            "ending_in": {
+                "S": "82973"
+            },
+            "currency_code": {
+                "S": "MXN"
+            },
+            "filters": {
+                "S": "#2019-04-12T00:00:00"
+            },
+            "id": {
+                "S": "0ef4ba99-0f4b-4712-993b-4223343329ff"
+            },
+            "corporation_id": {
+                "S": "2589e7c2-3f33-4d44-8714-fcfa11eded0e"
+            },
+            "resource": {
+                "S": "ACCOUNT#2019-04-12T00:00:00"
+            }
+        },
+        {
+            "org_id": {
+                "S": "c68f388b-21bc-4491-bd83-c40d125c1621"
+            },
+            "created_at": {
+                "S": "19/07/2019 12:00:00 a. m."
+            },
+            "partition_key": {
+                "S": "c68f388b-21bc-4491-bd83-c40d125c1621#2589e7c2-3f33-4d44-8714-fcfa11eded0e"
+            },
+            "ending_in": {
+                "S": "81726"
+            },
+            "currency_code": {
+                "S": "MXN"
+            },
+            "filters": {
+                "S": "#2019-07-19T00:00:00"
+            },
+            "id": {
+                "S": "ff538ca9-8e85-4b3c-99e8-e833e198bdaa"
+            },
+            "corporation_id": {
+                "S": "2589e7c2-3f33-4d44-8714-fcfa11eded0e"
+            },
+            "resource": {
+                "S": "ACCOUNT#2019-07-19T00:00:00"
+            }
+        },
+        {
+            "org_id": {
+                "S": "c68f388b-21bc-4491-bd83-c40d125c1621"
+            },
+            "created_at": {
+                "S": "11/09/2020 12:00:00 a. m."
+            },
+            "partition_key": {
+                "S": "c68f388b-21bc-4491-bd83-c40d125c1621#2589e7c2-3f33-4d44-8714-fcfa11eded0e"
+            },
+            "ending_in": {
+                "S": "81734"
+            },
+            "currency_code": {
+                "S": "MXN"
+            },
+            "filters": {
+                "S": "#2020-09-11T00:00:00"
+            },
+            "id": {
+                "S": "86e54c34-4926-4f46-ad31-ab1c6cd4fda9"
+            },
+            "corporation_id": {
+                "S": "2589e7c2-3f33-4d44-8714-fcfa11eded0e"
+            },
+            "resource": {
+                "S": "ACCOUNT#2020-09-11T00:00:00"
+            }
+        },
+        {
+            "org_id": {
+                "S": "c68f388b-21bc-4491-bd83-c40d125c1621"
+            },
+            "created_at": {
+                "S": "22/03/2019 12:00:00 a. m."
+            },
+            "partition_key": {
+                "S": "c68f388b-21bc-4491-bd83-c40d125c1621#2589e7c2-3f33-4d44-8714-fcfa11eded0e"
+            },
+            "ending_in": {
+                "S": "80289"
+            },
+            "currency_code": {
+                "S": "MXN"
+            },
+            "filters": {
+                "S": "#CLABE#2019-03-22T00:00:00"
+            },
+            "id": {
+                "S": "f2d6d6ee-b767-47b5-84f3-186003d0cbe7"
+            },
+            "corporation_id": {
+                "S": "2589e7c2-3f33-4d44-8714-fcfa11eded0e"
+            },
+            "resource": {
+                "S": "ACCOUNT#CLABE#2019-03-22T00:00:00"
+            }
+        },
+        {
+            "org_id": {
+                "S": "c68f388b-21bc-4491-bd83-c40d125c1621"
+            },
+            "created_at": {
+                "S": "11/09/2020 12:00:00 a. m."
+            },
+            "partition_key": {
+                "S": "c68f388b-21bc-4491-bd83-c40d125c1621#2589e7c2-3f33-4d44-8714-fcfa11eded0e"
+            },
+            "ending_in": {
+                "S": "81734"
+            },
+            "currency_code": {
+                "S": "MXN"
+            },
+            "filters": {
+                "S": "#CLABE#2020-09-11T00:00:00"
+            },
+            "id": {
+                "S": "86e54c34-4926-4f46-ad31-ab1c6cd4fda9"
+            },
+            "corporation_id": {
+                "S": "2589e7c2-3f33-4d44-8714-fcfa11eded0e"
+            },
+            "resource": {
+                "S": "ACCOUNT#CLABE#2020-09-11T00:00:00"
+            }
+        },
+        {
+            "org_id": {
+                "S": "c68f388b-21bc-4491-bd83-c40d125c1621"
+            },
+            "created_at": {
+                "S": "22/03/2019 12:00:00 a. m."
+            },
+            "partition_key": {
+                "S": "c68f388b-21bc-4491-bd83-c40d125c1621#2589e7c2-3f33-4d44-8714-fcfa11eded0e"
+            },
+            "ending_in": {
+                "S": "80289"
+            },
+            "currency_code": {
+                "S": "MXN"
+            },
+            "filters": {
+                "S": "#CLABE#CREATED#2019-03-22T00:00:00"
+            },
+            "id": {
+                "S": "f2d6d6ee-b767-47b5-84f3-186003d0cbe7"
+            },
+            "corporation_id": {
+                "S": "2589e7c2-3f33-4d44-8714-fcfa11eded0e"
+            },
+            "resource": {
+                "S": "ACCOUNT#CLABE#CREATED#2019-03-22T00:00:00"
+            }
+        },
+        {
+            "org_id": {
+                "S": "c68f388b-21bc-4491-bd83-c40d125c1621"
+            },
+            "created_at": {
+                "S": "22/03/2019 12:00:00 a. m."
+            },
+            "partition_key": {
+                "S": "c68f388b-21bc-4491-bd83-c40d125c1621#2589e7c2-3f33-4d44-8714-fcfa11eded0e"
+            },
+            "ending_in": {
+                "S": "80289"
+            },
+            "currency_code": {
+                "S": "MXN"
+            },
+            "filters": {
+                "S": "#CLABE#CREATED#OWNER#2019-03-22T00:00:00"
+            },
+            "id": {
+                "S": "f2d6d6ee-b767-47b5-84f3-186003d0cbe7"
+            },
+            "corporation_id": {
+                "S": "2589e7c2-3f33-4d44-8714-fcfa11eded0e"
+            },
+            "resource": {
+                "S": "ACCOUNT#CLABE#CREATED#OWNER#2019-03-22T00:00:00"
+            }
+        },
+        {
+            "org_id": {
+                "S": "c68f388b-21bc-4491-bd83-c40d125c1621"
+            },
+            "created_at": {
+                "S": "11/09/2020 12:00:00 a. m."
+            },
+            "partition_key": {
+                "S": "c68f388b-21bc-4491-bd83-c40d125c1621#2589e7c2-3f33-4d44-8714-fcfa11eded0e"
+            },
+            "ending_in": {
+                "S": "81734"
+            },
+            "currency_code": {
+                "S": "MXN"
+            },
+            "filters": {
+                "S": "#CLABE#DELETED#2020-09-11T00:00:00"
+            },
+            "id": {
+                "S": "86e54c34-4926-4f46-ad31-ab1c6cd4fda9"
+            },
+            "corporation_id": {
+                "S": "2589e7c2-3f33-4d44-8714-fcfa11eded0e"
+            },
+            "resource": {
+                "S": "ACCOUNT#CLABE#DELETED#2020-09-11T00:00:00"
+            }
+        },
+        {
+            "org_id": {
+                "S": "c68f388b-21bc-4491-bd83-c40d125c1621"
+            },
+            "created_at": {
+                "S": "11/09/2020 12:00:00 a. m."
+            },
+            "partition_key": {
+                "S": "c68f388b-21bc-4491-bd83-c40d125c1621#2589e7c2-3f33-4d44-8714-fcfa11eded0e"
+            },
+            "ending_in": {
+                "S": "81734"
+            },
+            "currency_code": {
+                "S": "MXN"
+            },
+            "filters": {
+                "S": "#CLABE#DELETED#THIRD_PARTY#2020-09-11T00:00:00"
+            },
+            "id": {
+                "S": "86e54c34-4926-4f46-ad31-ab1c6cd4fda9"
+            },
+            "corporation_id": {
+                "S": "2589e7c2-3f33-4d44-8714-fcfa11eded0e"
+            },
+            "resource": {
+                "S": "ACCOUNT#CLABE#DELETED#THIRD_PARTY#2020-09-11T00:00:00"
+            }
+        },
+        {
+            "org_id": {
+                "S": "c68f388b-21bc-4491-bd83-c40d125c1621"
+            },
+            "created_at": {
+                "S": "22/03/2019 12:00:00 a. m."
+            },
+            "partition_key": {
+                "S": "c68f388b-21bc-4491-bd83-c40d125c1621#2589e7c2-3f33-4d44-8714-fcfa11eded0e"
+            },
+            "ending_in": {
+                "S": "80289"
+            },
+            "currency_code": {
+                "S": "MXN"
+            },
+            "filters": {
+                "S": "#CLABE#OWNER#2019-03-22T00:00:00"
+            },
+            "id": {
+                "S": "f2d6d6ee-b767-47b5-84f3-186003d0cbe7"
+            },
+            "corporation_id": {
+                "S": "2589e7c2-3f33-4d44-8714-fcfa11eded0e"
+            },
+            "resource": {
+                "S": "ACCOUNT#CLABE#OWNER#2019-03-22T00:00:00"
+            }
+        },
+        {
+            "org_id": {
+                "S": "c68f388b-21bc-4491-bd83-c40d125c1621"
+            },
+            "created_at": {
+                "S": "11/09/2020 12:00:00 a. m."
+            },
+            "partition_key": {
+                "S": "c68f388b-21bc-4491-bd83-c40d125c1621#2589e7c2-3f33-4d44-8714-fcfa11eded0e"
+            },
+            "ending_in": {
+                "S": "81734"
+            },
+            "currency_code": {
+                "S": "MXN"
+            },
+            "filters": {
+                "S": "#CLABE#THIRD_PARTY#2020-09-11T00:00:00"
+            },
+            "id": {
+                "S": "86e54c34-4926-4f46-ad31-ab1c6cd4fda9"
+            },
+            "corporation_id": {
+                "S": "2589e7c2-3f33-4d44-8714-fcfa11eded0e"
+            },
+            "resource": {
+                "S": "ACCOUNT#CLABE#THIRD_PARTY#2020-09-11T00:00:00"
+            }
+        },
+        {
+            "org_id": {
+                "S": "c68f388b-21bc-4491-bd83-c40d125c1621"
+            },
+            "created_at": {
+                "S": "22/03/2019 12:00:00 a. m."
+            },
+            "partition_key": {
+                "S": "c68f388b-21bc-4491-bd83-c40d125c1621#2589e7c2-3f33-4d44-8714-fcfa11eded0e"
+            },
+            "ending_in": {
+                "S": "80289"
+            },
+            "currency_code": {
+                "S": "MXN"
+            },
+            "filters": {
+                "S": "#CREATED#2019-03-22T00:00:00"
+            },
+            "id": {
+                "S": "f2d6d6ee-b767-47b5-84f3-186003d0cbe7"
+            },
+            "corporation_id": {
+                "S": "2589e7c2-3f33-4d44-8714-fcfa11eded0e"
+            },
+            "resource": {
+                "S": "ACCOUNT#CREATED#2019-03-22T00:00:00"
+            }
+        },
+        {
+            "org_id": {
+                "S": "c68f388b-21bc-4491-bd83-c40d125c1621"
+            },
+            "created_at": {
+                "S": "12/04/2019 12:00:00 a. m."
+            },
+            "partition_key": {
+                "S": "c68f388b-21bc-4491-bd83-c40d125c1621#2589e7c2-3f33-4d44-8714-fcfa11eded0e"
+            },
+            "ending_in": {
+                "S": "82973"
+            },
+            "currency_code": {
+                "S": "MXN"
+            },
+            "filters": {
+                "S": "#CREATED#2019-04-12T00:00:00"
+            },
+            "id": {
+                "S": "0ef4ba99-0f4b-4712-993b-4223343329ff"
+            },
+            "corporation_id": {
+                "S": "2589e7c2-3f33-4d44-8714-fcfa11eded0e"
+            },
+            "resource": {
+                "S": "ACCOUNT#CREATED#2019-04-12T00:00:00"
+            }
+        },
+        {
+            "org_id": {
+                "S": "c68f388b-21bc-4491-bd83-c40d125c1621"
+            },
+            "created_at": {
+                "S": "19/07/2019 12:00:00 a. m."
+            },
+            "partition_key": {
+                "S": "c68f388b-21bc-4491-bd83-c40d125c1621#2589e7c2-3f33-4d44-8714-fcfa11eded0e"
+            },
+            "ending_in": {
+                "S": "81726"
+            },
+            "currency_code": {
+                "S": "MXN"
+            },
+            "filters": {
+                "S": "#CREATED#2019-07-19T00:00:00"
+            },
+            "id": {
+                "S": "ff538ca9-8e85-4b3c-99e8-e833e198bdaa"
+            },
+            "corporation_id": {
+                "S": "2589e7c2-3f33-4d44-8714-fcfa11eded0e"
+            },
+            "resource": {
+                "S": "ACCOUNT#CREATED#2019-07-19T00:00:00"
+            }
+        },
+        {
+            "org_id": {
+                "S": "c68f388b-21bc-4491-bd83-c40d125c1621"
+            },
+            "created_at": {
+                "S": "22/03/2019 12:00:00 a. m."
+            },
+            "partition_key": {
+                "S": "c68f388b-21bc-4491-bd83-c40d125c1621#2589e7c2-3f33-4d44-8714-fcfa11eded0e"
+            },
+            "ending_in": {
+                "S": "80289"
+            },
+            "currency_code": {
+                "S": "MXN"
+            },
+            "filters": {
+                "S": "#CREATED#OWNER#2019-03-22T00:00:00"
+            },
+            "id": {
+                "S": "f2d6d6ee-b767-47b5-84f3-186003d0cbe7"
+            },
+            "corporation_id": {
+                "S": "2589e7c2-3f33-4d44-8714-fcfa11eded0e"
+            },
+            "resource": {
+                "S": "ACCOUNT#CREATED#OWNER#2019-03-22T00:00:00"
+            }
+        },
+        {
+            "org_id": {
+                "S": "c68f388b-21bc-4491-bd83-c40d125c1621"
+            },
+            "created_at": {
+                "S": "12/04/2019 12:00:00 a. m."
+            },
+            "partition_key": {
+                "S": "c68f388b-21bc-4491-bd83-c40d125c1621#2589e7c2-3f33-4d44-8714-fcfa11eded0e"
+            },
+            "ending_in": {
+                "S": "82973"
+            },
+            "currency_code": {
+                "S": "MXN"
+            },
+            "filters": {
+                "S": "#CREATED#OWNER#2019-04-12T00:00:00"
+            },
+            "id": {
+                "S": "0ef4ba99-0f4b-4712-993b-4223343329ff"
+            },
+            "corporation_id": {
+                "S": "2589e7c2-3f33-4d44-8714-fcfa11eded0e"
+            },
+            "resource": {
+                "S": "ACCOUNT#CREATED#OWNER#2019-04-12T00:00:00"
+            }
+        },
+        {
+            "org_id": {
+                "S": "c68f388b-21bc-4491-bd83-c40d125c1621"
+            },
+            "created_at": {
+                "S": "19/07/2019 12:00:00 a. m."
+            },
+            "partition_key": {
+                "S": "c68f388b-21bc-4491-bd83-c40d125c1621#2589e7c2-3f33-4d44-8714-fcfa11eded0e"
+            },
+            "ending_in": {
+                "S": "81726"
+            },
+            "currency_code": {
+                "S": "MXN"
+            },
+            "filters": {
+                "S": "#CREATED#THIRD_PARTY#2019-07-19T00:00:00"
+            },
+            "id": {
+                "S": "ff538ca9-8e85-4b3c-99e8-e833e198bdaa"
+            },
+            "corporation_id": {
+                "S": "2589e7c2-3f33-4d44-8714-fcfa11eded0e"
+            },
+            "resource": {
+                "S": "ACCOUNT#CREATED#THIRD_PARTY#2019-07-19T00:00:00"
+            }
+        },
+        {
+            "org_id": {
+                "S": "c68f388b-21bc-4491-bd83-c40d125c1621"
+            },
+            "created_at": {
+                "S": "12/04/2019 12:00:00 a. m."
+            },
+            "partition_key": {
+                "S": "c68f388b-21bc-4491-bd83-c40d125c1621#2589e7c2-3f33-4d44-8714-fcfa11eded0e"
+            },
+            "ending_in": {
+                "S": "82973"
+            },
+            "currency_code": {
+                "S": "MXN"
+            },
+            "filters": {
+                "S": "#CREDIT#2019-04-12T00:00:00"
+            },
+            "id": {
+                "S": "0ef4ba99-0f4b-4712-993b-4223343329ff"
+            },
+            "corporation_id": {
+                "S": "2589e7c2-3f33-4d44-8714-fcfa11eded0e"
+            },
+            "resource": {
+                "S": "ACCOUNT#CREDIT#2019-04-12T00:00:00"
+            }
+        },
+        {
+            "org_id": {
+                "S": "c68f388b-21bc-4491-bd83-c40d125c1621"
+            },
+            "created_at": {
+                "S": "19/07/2019 12:00:00 a. m."
+            },
+            "partition_key": {
+                "S": "c68f388b-21bc-4491-bd83-c40d125c1621#2589e7c2-3f33-4d44-8714-fcfa11eded0e"
+            },
+            "ending_in": {
+                "S": "81726"
+            },
+            "currency_code": {
+                "S": "MXN"
+            },
+            "filters": {
+                "S": "#CREDIT#2019-07-19T00:00:00"
+            },
+            "id": {
+                "S": "ff538ca9-8e85-4b3c-99e8-e833e198bdaa"
+            },
+            "corporation_id": {
+                "S": "2589e7c2-3f33-4d44-8714-fcfa11eded0e"
+            },
+            "resource": {
+                "S": "ACCOUNT#CREDIT#2019-07-19T00:00:00"
+            }
+        },
+        {
+            "org_id": {
+                "S": "c68f388b-21bc-4491-bd83-c40d125c1621"
+            },
+            "created_at": {
+                "S": "12/04/2019 12:00:00 a. m."
+            },
+            "partition_key": {
+                "S": "c68f388b-21bc-4491-bd83-c40d125c1621#2589e7c2-3f33-4d44-8714-fcfa11eded0e"
+            },
+            "ending_in": {
+                "S": "82973"
+            },
+            "currency_code": {
+                "S": "MXN"
+            },
+            "filters": {
+                "S": "#CREDIT#CREATED#2019-04-12T00:00:00"
+            },
+            "id": {
+                "S": "0ef4ba99-0f4b-4712-993b-4223343329ff"
+            },
+            "corporation_id": {
+                "S": "2589e7c2-3f33-4d44-8714-fcfa11eded0e"
+            },
+            "resource": {
+                "S": "ACCOUNT#CREDIT#CREATED#2019-04-12T00:00:00"
+            }
+        },
+        {
+            "org_id": {
+                "S": "c68f388b-21bc-4491-bd83-c40d125c1621"
+            },
+            "created_at": {
+                "S": "19/07/2019 12:00:00 a. m."
+            },
+            "partition_key": {
+                "S": "c68f388b-21bc-4491-bd83-c40d125c1621#2589e7c2-3f33-4d44-8714-fcfa11eded0e"
+            },
+            "ending_in": {
+                "S": "81726"
+            },
+            "currency_code": {
+                "S": "MXN"
+            },
+            "filters": {
+                "S": "#CREDIT#CREATED#2019-07-19T00:00:00"
+            },
+            "id": {
+                "S": "ff538ca9-8e85-4b3c-99e8-e833e198bdaa"
+            },
+            "corporation_id": {
+                "S": "2589e7c2-3f33-4d44-8714-fcfa11eded0e"
+            },
+            "resource": {
+                "S": "ACCOUNT#CREDIT#CREATED#2019-07-19T00:00:00"
+            }
+        },
+        {
+            "org_id": {
+                "S": "c68f388b-21bc-4491-bd83-c40d125c1621"
+            },
+            "created_at": {
+                "S": "12/04/2019 12:00:00 a. m."
+            },
+            "partition_key": {
+                "S": "c68f388b-21bc-4491-bd83-c40d125c1621#2589e7c2-3f33-4d44-8714-fcfa11eded0e"
+            },
+            "ending_in": {
+                "S": "82973"
+            },
+            "currency_code": {
+                "S": "MXN"
+            },
+            "filters": {
+                "S": "#CREDIT#CREATED#OWNER#2019-04-12T00:00:00"
+            },
+            "id": {
+                "S": "0ef4ba99-0f4b-4712-993b-4223343329ff"
+            },
+            "corporation_id": {
+                "S": "2589e7c2-3f33-4d44-8714-fcfa11eded0e"
+            },
+            "resource": {
+                "S": "ACCOUNT#CREDIT#CREATED#OWNER#2019-04-12T00:00:00"
+            }
+        },
+        {
+            "org_id": {
+                "S": "c68f388b-21bc-4491-bd83-c40d125c1621"
+            },
+            "created_at": {
+                "S": "19/07/2019 12:00:00 a. m."
+            },
+            "partition_key": {
+                "S": "c68f388b-21bc-4491-bd83-c40d125c1621#2589e7c2-3f33-4d44-8714-fcfa11eded0e"
+            },
+            "ending_in": {
+                "S": "81726"
+            },
+            "currency_code": {
+                "S": "MXN"
+            },
+            "filters": {
+                "S": "#CREDIT#CREATED#THIRD_PARTY#2019-07-19T00:00:00"
+            },
+            "id": {
+                "S": "ff538ca9-8e85-4b3c-99e8-e833e198bdaa"
+            },
+            "corporation_id": {
+                "S": "2589e7c2-3f33-4d44-8714-fcfa11eded0e"
+            },
+            "resource": {
+                "S": "ACCOUNT#CREDIT#CREATED#THIRD_PARTY#2019-07-19T00:00:00"
+            }
+        },
+        {
+            "org_id": {
+                "S": "c68f388b-21bc-4491-bd83-c40d125c1621"
+            },
+            "created_at": {
+                "S": "12/04/2019 12:00:00 a. m."
+            },
+            "partition_key": {
+                "S": "c68f388b-21bc-4491-bd83-c40d125c1621#2589e7c2-3f33-4d44-8714-fcfa11eded0e"
+            },
+            "ending_in": {
+                "S": "82973"
+            },
+            "currency_code": {
+                "S": "MXN"
+            },
+            "filters": {
+                "S": "#CREDIT#OWNER#2019-04-12T00:00:00"
+            },
+            "id": {
+                "S": "0ef4ba99-0f4b-4712-993b-4223343329ff"
+            },
+            "corporation_id": {
+                "S": "2589e7c2-3f33-4d44-8714-fcfa11eded0e"
+            },
+            "resource": {
+                "S": "ACCOUNT#CREDIT#OWNER#2019-04-12T00:00:00"
+            }
+        },
+        {
+            "org_id": {
+                "S": "c68f388b-21bc-4491-bd83-c40d125c1621"
+            },
+            "created_at": {
+                "S": "19/07/2019 12:00:00 a. m."
+            },
+            "partition_key": {
+                "S": "c68f388b-21bc-4491-bd83-c40d125c1621#2589e7c2-3f33-4d44-8714-fcfa11eded0e"
+            },
+            "ending_in": {
+                "S": "81726"
+            },
+            "currency_code": {
+                "S": "MXN"
+            },
+            "filters": {
+                "S": "#CREDIT#THIRD_PARTY#2019-07-19T00:00:00"
+            },
+            "id": {
+                "S": "ff538ca9-8e85-4b3c-99e8-e833e198bdaa"
+            },
+            "corporation_id": {
+                "S": "2589e7c2-3f33-4d44-8714-fcfa11eded0e"
+            },
+            "resource": {
+                "S": "ACCOUNT#CREDIT#THIRD_PARTY#2019-07-19T00:00:00"
+            }
+        },
+        {
+            "org_id": {
+                "S": "c68f388b-21bc-4491-bd83-c40d125c1621"
+            },
+            "created_at": {
+                "S": "11/09/2020 12:00:00 a. m."
+            },
+            "partition_key": {
+                "S": "c68f388b-21bc-4491-bd83-c40d125c1621#2589e7c2-3f33-4d44-8714-fcfa11eded0e"
+            },
+            "ending_in": {
+                "S": "81734"
+            },
+            "currency_code": {
+                "S": "MXN"
+            },
+            "filters": {
+                "S": "#DELETED#2020-09-11T00:00:00"
+            },
+            "id": {
+                "S": "86e54c34-4926-4f46-ad31-ab1c6cd4fda9"
+            },
+            "corporation_id": {
+                "S": "2589e7c2-3f33-4d44-8714-fcfa11eded0e"
+            },
+            "resource": {
+                "S": "ACCOUNT#DELETED#2020-09-11T00:00:00"
+            }
+        },
+        {
+            "org_id": {
+                "S": "c68f388b-21bc-4491-bd83-c40d125c1621"
+            },
+            "created_at": {
+                "S": "11/09/2020 12:00:00 a. m."
+            },
+            "partition_key": {
+                "S": "c68f388b-21bc-4491-bd83-c40d125c1621#2589e7c2-3f33-4d44-8714-fcfa11eded0e"
+            },
+            "ending_in": {
+                "S": "81734"
+            },
+            "currency_code": {
+                "S": "MXN"
+            },
+            "filters": {
+                "S": "#DELETED#THIRD_PARTY#2020-09-11T00:00:00"
+            },
+            "id": {
+                "S": "86e54c34-4926-4f46-ad31-ab1c6cd4fda9"
+            },
+            "corporation_id": {
+                "S": "2589e7c2-3f33-4d44-8714-fcfa11eded0e"
+            },
+            "resource": {
+                "S": "ACCOUNT#DELETED#THIRD_PARTY#2020-09-11T00:00:00"
+            }
+        },
+        {
+            "org_id": {
+                "S": "c68f388b-21bc-4491-bd83-c40d125c1621"
+            },
+            "created_at": {
+                "S": "22/03/2019 12:00:00 a. m."
+            },
+            "partition_key": {
+                "S": "c68f388b-21bc-4491-bd83-c40d125c1621#2589e7c2-3f33-4d44-8714-fcfa11eded0e"
+            },
+            "ending_in": {
+                "S": "80289"
+            },
+            "currency_code": {
+                "S": "MXN"
+            },
+            "filters": {
+                "S": "#OWNER#2019-03-22T00:00:00"
+            },
+            "id": {
+                "S": "f2d6d6ee-b767-47b5-84f3-186003d0cbe7"
+            },
+            "corporation_id": {
+                "S": "2589e7c2-3f33-4d44-8714-fcfa11eded0e"
+            },
+            "resource": {
+                "S": "ACCOUNT#OWNER#2019-03-22T00:00:00"
+            }
+        },
+        {
+            "org_id": {
+                "S": "c68f388b-21bc-4491-bd83-c40d125c1621"
+            },
+            "created_at": {
+                "S": "12/04/2019 12:00:00 a. m."
+            },
+            "partition_key": {
+                "S": "c68f388b-21bc-4491-bd83-c40d125c1621#2589e7c2-3f33-4d44-8714-fcfa11eded0e"
+            },
+            "ending_in": {
+                "S": "82973"
+            },
+            "currency_code": {
+                "S": "MXN"
+            },
+            "filters": {
+                "S": "#OWNER#2019-04-12T00:00:00"
+            },
+            "id": {
+                "S": "0ef4ba99-0f4b-4712-993b-4223343329ff"
+            },
+            "corporation_id": {
+                "S": "2589e7c2-3f33-4d44-8714-fcfa11eded0e"
+            },
+            "resource": {
+                "S": "ACCOUNT#OWNER#2019-04-12T00:00:00"
+            }
+        },
+        {
+            "org_id": {
+                "S": "c68f388b-21bc-4491-bd83-c40d125c1621"
+            },
+            "created_at": {
+                "S": "19/07/2019 12:00:00 a. m."
+            },
+            "partition_key": {
+                "S": "c68f388b-21bc-4491-bd83-c40d125c1621#2589e7c2-3f33-4d44-8714-fcfa11eded0e"
+            },
+            "ending_in": {
+                "S": "81726"
+            },
+            "currency_code": {
+                "S": "MXN"
+            },
+            "filters": {
+                "S": "#THIRD_PARTY#2019-07-19T00:00:00"
+            },
+            "id": {
+                "S": "ff538ca9-8e85-4b3c-99e8-e833e198bdaa"
+            },
+            "corporation_id": {
+                "S": "2589e7c2-3f33-4d44-8714-fcfa11eded0e"
+            },
+            "resource": {
+                "S": "ACCOUNT#THIRD_PARTY#2019-07-19T00:00:00"
+            }
+        },
+        {
+            "org_id": {
+                "S": "c68f388b-21bc-4491-bd83-c40d125c1621"
+            },
+            "created_at": {
+                "S": "11/09/2020 12:00:00 a. m."
+            },
+            "partition_key": {
+                "S": "c68f388b-21bc-4491-bd83-c40d125c1621#2589e7c2-3f33-4d44-8714-fcfa11eded0e"
+            },
+            "ending_in": {
+                "S": "81734"
+            },
+            "currency_code": {
+                "S": "MXN"
+            },
+            "filters": {
+                "S": "#THIRD_PARTY#2020-09-11T00:00:00"
+            },
+            "id": {
+                "S": "86e54c34-4926-4f46-ad31-ab1c6cd4fda9"
+            },
+            "corporation_id": {
+                "S": "2589e7c2-3f33-4d44-8714-fcfa11eded0e"
+            },
+            "resource": {
+                "S": "ACCOUNT#THIRD_PARTY#2020-09-11T00:00:00"
+            }
+        }
+    ],
+    "Count": 32,
+    "ScannedCount": 32,
+    "ConsumedCapacity": {
+        "TableName": "am-accounts-test",
+        "CapacityUnits": 1.5
+    }
+}
