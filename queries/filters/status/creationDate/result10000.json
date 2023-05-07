@@ -1,0 +1,1814 @@
+{
+    "Items": [
+        {
+            "created_at": {
+                "S": "2019-09-03T00:00:00.000"
+            },
+            "partition_key": {
+                "S": "e4c82a64-9bac-45a6-94ab-0af6352f01cb#13afc650-1d5c-4f71-a164-55209b11d299#b66b1b17-6f2a-454d-9efb-5830ec15efaa"
+            },
+            "currency_code": {
+                "S": "MXN"
+            },
+            "lorem_contract_id": {
+                "S": "cdc203ca-5592-4fb3-ab95-2d416ea6d617"
+            },
+            "filters": {
+                "S": "DELETED#2019-09-03T00:00:00"
+            },
+            "org_id": {
+                "S": "e4c82a64-9bac-45a6-94ab-0af6352f01cb"
+            },
+            "number": {
+                "S": "079b9bb7-0b43-47cf-acc8-27b3ad7b43b0"
+            },
+            "ending_in": {
+                "S": "80505"
+            },
+            "search_resource": {
+                "S": "ACCOUNT#DELETED#2019-09-03T00:00:00"
+            },
+            "external_id": {
+                "S": "AAA579"
+            },
+            "id": {
+                "S": "b66b1b17-6f2a-454d-9efb-5830ec15efaa"
+            },
+            "org_corp": {
+                "S": "e4c82a64-9bac-45a6-94ab-0af6352f01cb#13afc650-1d5c-4f71-a164-55209b11d299"
+            },
+            "corporation_id": {
+                "S": "13afc650-1d5c-4f71-a164-55209b11d299"
+            }
+        },
+        {
+            "created_at": {
+                "S": "2019-09-03T00:00:00.000"
+            },
+            "partition_key": {
+                "S": "e4c82a64-9bac-45a6-94ab-0af6352f01cb#13afc650-1d5c-4f71-a164-55209b11d299#834e1b90-1f78-4a21-a1da-ed849fd4f2a4"
+            },
+            "currency_code": {
+                "S": "MXN"
+            },
+            "lorem_contract_id": {
+                "S": "2cea1020-0141-4760-9a78-3e629c2cc389"
+            },
+            "filters": {
+                "S": "DELETED#2019-09-03T00:00:00"
+            },
+            "org_id": {
+                "S": "e4c82a64-9bac-45a6-94ab-0af6352f01cb"
+            },
+            "number": {
+                "S": "524c4e3c-eafa-44ec-95cf-556f9942da9c"
+            },
+            "ending_in": {
+                "S": "80733"
+            },
+            "search_resource": {
+                "S": "ACCOUNT#DELETED#2019-09-03T00:00:00"
+            },
+            "external_id": {
+                "S": "ABA719"
+            },
+            "id": {
+                "S": "834e1b90-1f78-4a21-a1da-ed849fd4f2a4"
+            },
+            "org_corp": {
+                "S": "e4c82a64-9bac-45a6-94ab-0af6352f01cb#13afc650-1d5c-4f71-a164-55209b11d299"
+            },
+            "corporation_id": {
+                "S": "13afc650-1d5c-4f71-a164-55209b11d299"
+            }
+        },
+        {
+            "created_at": {
+                "S": "2019-09-03T00:00:00.000"
+            },
+            "partition_key": {
+                "S": "e4c82a64-9bac-45a6-94ab-0af6352f01cb#13afc650-1d5c-4f71-a164-55209b11d299#c499f936-5fb5-4184-830c-ac1445f54269"
+            },
+            "currency_code": {
+                "S": "MXN"
+            },
+            "lorem_contract_id": {
+                "S": "9a6e01df-92bc-4852-b21d-31b7b46a3758"
+            },
+            "filters": {
+                "S": "DELETED#2019-09-03T00:00:00"
+            },
+            "org_id": {
+                "S": "e4c82a64-9bac-45a6-94ab-0af6352f01cb"
+            },
+            "number": {
+                "S": "bdf1c9cd-99b4-465d-a3f2-953ead5e77da"
+            },
+            "ending_in": {
+                "S": "81919"
+            },
+            "search_resource": {
+                "S": "ACCOUNT#DELETED#2019-09-03T00:00:00"
+            },
+            "external_id": {
+                "S": "AAA595"
+            },
+            "id": {
+                "S": "c499f936-5fb5-4184-830c-ac1445f54269"
+            },
+            "org_corp": {
+                "S": "e4c82a64-9bac-45a6-94ab-0af6352f01cb#13afc650-1d5c-4f71-a164-55209b11d299"
+            },
+            "corporation_id": {
+                "S": "13afc650-1d5c-4f71-a164-55209b11d299"
+            }
+        },
+        {
+            "created_at": {
+                "S": "2019-09-04T00:00:00.000"
+            },
+            "partition_key": {
+                "S": "e4c82a64-9bac-45a6-94ab-0af6352f01cb#13afc650-1d5c-4f71-a164-55209b11d299#0f2358b0-cfb8-4cf8-be90-bfe46a5a96ef"
+            },
+            "currency_code": {
+                "S": "MXN"
+            },
+            "lorem_contract_id": {
+                "S": "41bf7786-bba8-4dac-b63d-0aa3c5b9bffa"
+            },
+            "filters": {
+                "S": "DELETED#2019-09-04T00:00:00"
+            },
+            "org_id": {
+                "S": "e4c82a64-9bac-45a6-94ab-0af6352f01cb"
+            },
+            "number": {
+                "S": "a1202aee-9747-4e00-a636-3cfffa062f21"
+            },
+            "ending_in": {
+                "S": "82764"
+            },
+            "search_resource": {
+                "S": "ACCOUNT#DELETED#2019-09-04T00:00:00"
+            },
+            "external_id": {
+                "S": "AAA488"
+            },
+            "id": {
+                "S": "0f2358b0-cfb8-4cf8-be90-bfe46a5a96ef"
+            },
+            "org_corp": {
+                "S": "e4c82a64-9bac-45a6-94ab-0af6352f01cb#13afc650-1d5c-4f71-a164-55209b11d299"
+            },
+            "corporation_id": {
+                "S": "13afc650-1d5c-4f71-a164-55209b11d299"
+            }
+        },
+        {
+            "created_at": {
+                "S": "2019-09-05T00:00:00.000"
+            },
+            "partition_key": {
+                "S": "e4c82a64-9bac-45a6-94ab-0af6352f01cb#13afc650-1d5c-4f71-a164-55209b11d299#d13ce49d-9d6e-4b3c-a2ac-caeac0e7fd71"
+            },
+            "currency_code": {
+                "S": "MXN"
+            },
+            "lorem_contract_id": {
+                "S": "792cc208-908d-43a7-9d07-db51be68b462"
+            },
+            "filters": {
+                "S": "DELETED#2019-09-05T00:00:00"
+            },
+            "org_id": {
+                "S": "e4c82a64-9bac-45a6-94ab-0af6352f01cb"
+            },
+            "number": {
+                "S": "3548836b-ccdd-4ace-8ac2-902c3ce15acb"
+            },
+            "ending_in": {
+                "S": "82083"
+            },
+            "search_resource": {
+                "S": "ACCOUNT#DELETED#2019-09-05T00:00:00"
+            },
+            "external_id": {
+                "S": "ABA785"
+            },
+            "id": {
+                "S": "d13ce49d-9d6e-4b3c-a2ac-caeac0e7fd71"
+            },
+            "org_corp": {
+                "S": "e4c82a64-9bac-45a6-94ab-0af6352f01cb#13afc650-1d5c-4f71-a164-55209b11d299"
+            },
+            "corporation_id": {
+                "S": "13afc650-1d5c-4f71-a164-55209b11d299"
+            }
+        },
+        {
+            "created_at": {
+                "S": "2019-09-05T00:00:00.000"
+            },
+            "partition_key": {
+                "S": "e4c82a64-9bac-45a6-94ab-0af6352f01cb#13afc650-1d5c-4f71-a164-55209b11d299#f003c618-70ce-410f-b09b-e8c67d5d2cf7"
+            },
+            "currency_code": {
+                "S": "MXN"
+            },
+            "lorem_contract_id": {
+                "S": "94427c89-e043-4a82-aecd-e75c5b6fa2c8"
+            },
+            "filters": {
+                "S": "DELETED#2019-09-05T00:00:00"
+            },
+            "org_id": {
+                "S": "e4c82a64-9bac-45a6-94ab-0af6352f01cb"
+            },
+            "number": {
+                "S": "3f834aab-a0d1-4469-98c9-af3d05cd85e3"
+            },
+            "ending_in": {
+                "S": "80765"
+            },
+            "search_resource": {
+                "S": "ACCOUNT#DELETED#2019-09-05T00:00:00"
+            },
+            "external_id": {
+                "S": "ABA968"
+            },
+            "id": {
+                "S": "f003c618-70ce-410f-b09b-e8c67d5d2cf7"
+            },
+            "org_corp": {
+                "S": "e4c82a64-9bac-45a6-94ab-0af6352f01cb#13afc650-1d5c-4f71-a164-55209b11d299"
+            },
+            "corporation_id": {
+                "S": "13afc650-1d5c-4f71-a164-55209b11d299"
+            }
+        },
+        {
+            "created_at": {
+                "S": "2019-09-05T00:00:00.000"
+            },
+            "partition_key": {
+                "S": "e4c82a64-9bac-45a6-94ab-0af6352f01cb#13afc650-1d5c-4f71-a164-55209b11d299#59169904-c4a3-4bef-b4cb-360848ff92d1"
+            },
+            "currency_code": {
+                "S": "MXN"
+            },
+            "lorem_contract_id": {
+                "S": "d5a6f17b-d9c5-488b-9a83-8732aa020f93"
+            },
+            "filters": {
+                "S": "DELETED#2019-09-05T00:00:00"
+            },
+            "org_id": {
+                "S": "e4c82a64-9bac-45a6-94ab-0af6352f01cb"
+            },
+            "number": {
+                "S": "abc08bf7-3d7e-414e-afb8-f7305edcc810"
+            },
+            "ending_in": {
+                "S": "81480"
+            },
+            "search_resource": {
+                "S": "ACCOUNT#DELETED#2019-09-05T00:00:00"
+            },
+            "external_id": {
+                "S": "ABA207"
+            },
+            "id": {
+                "S": "59169904-c4a3-4bef-b4cb-360848ff92d1"
+            },
+            "org_corp": {
+                "S": "e4c82a64-9bac-45a6-94ab-0af6352f01cb#13afc650-1d5c-4f71-a164-55209b11d299"
+            },
+            "corporation_id": {
+                "S": "13afc650-1d5c-4f71-a164-55209b11d299"
+            }
+        },
+        {
+            "created_at": {
+                "S": "2019-09-07T00:00:00.000"
+            },
+            "partition_key": {
+                "S": "e4c82a64-9bac-45a6-94ab-0af6352f01cb#13afc650-1d5c-4f71-a164-55209b11d299#7f52c51c-486c-4f05-82e7-237b4a13fc8a"
+            },
+            "currency_code": {
+                "S": "MXN"
+            },
+            "lorem_contract_id": {
+                "S": "9eaf9172-835f-4a17-8035-6974c2fda296"
+            },
+            "filters": {
+                "S": "DELETED#2019-09-07T00:00:00"
+            },
+            "org_id": {
+                "S": "e4c82a64-9bac-45a6-94ab-0af6352f01cb"
+            },
+            "number": {
+                "S": "f2c0a8bf-c900-4cd3-ad06-b4b8265c734a"
+            },
+            "ending_in": {
+                "S": "81004"
+            },
+            "search_resource": {
+                "S": "ACCOUNT#DELETED#2019-09-07T00:00:00"
+            },
+            "external_id": {
+                "S": "ABA794"
+            },
+            "id": {
+                "S": "7f52c51c-486c-4f05-82e7-237b4a13fc8a"
+            },
+            "org_corp": {
+                "S": "e4c82a64-9bac-45a6-94ab-0af6352f01cb#13afc650-1d5c-4f71-a164-55209b11d299"
+            },
+            "corporation_id": {
+                "S": "13afc650-1d5c-4f71-a164-55209b11d299"
+            }
+        },
+        {
+            "created_at": {
+                "S": "2019-09-07T00:00:00.000"
+            },
+            "partition_key": {
+                "S": "e4c82a64-9bac-45a6-94ab-0af6352f01cb#13afc650-1d5c-4f71-a164-55209b11d299#6b0069cf-df5e-43dc-9e4b-240c62ac9e95"
+            },
+            "currency_code": {
+                "S": "MXN"
+            },
+            "lorem_contract_id": {
+                "S": "c912cf65-0caa-42dc-b9a7-6832a9426ac2"
+            },
+            "filters": {
+                "S": "DELETED#2019-09-07T00:00:00"
+            },
+            "org_id": {
+                "S": "e4c82a64-9bac-45a6-94ab-0af6352f01cb"
+            },
+            "number": {
+                "S": "9d5ac1b0-8dde-47e0-8399-0c463580075b"
+            },
+            "ending_in": {
+                "S": "80601"
+            },
+            "search_resource": {
+                "S": "ACCOUNT#DELETED#2019-09-07T00:00:00"
+            },
+            "external_id": {
+                "S": "AAA893"
+            },
+            "id": {
+                "S": "6b0069cf-df5e-43dc-9e4b-240c62ac9e95"
+            },
+            "org_corp": {
+                "S": "e4c82a64-9bac-45a6-94ab-0af6352f01cb#13afc650-1d5c-4f71-a164-55209b11d299"
+            },
+            "corporation_id": {
+                "S": "13afc650-1d5c-4f71-a164-55209b11d299"
+            }
+        },
+        {
+            "created_at": {
+                "S": "2019-09-07T00:00:00.000"
+            },
+            "partition_key": {
+                "S": "e4c82a64-9bac-45a6-94ab-0af6352f01cb#13afc650-1d5c-4f71-a164-55209b11d299#13284fa7-28fa-4a13-b902-a373e59bb3a7"
+            },
+            "currency_code": {
+                "S": "MXN"
+            },
+            "lorem_contract_id": {
+                "S": "868bb08a-4bf6-4545-a8f2-e2a8e2b25de3"
+            },
+            "filters": {
+                "S": "DELETED#2019-09-07T00:00:00"
+            },
+            "org_id": {
+                "S": "e4c82a64-9bac-45a6-94ab-0af6352f01cb"
+            },
+            "number": {
+                "S": "afd06ac4-b5ec-4a10-a71c-d78f6bf30a33"
+            },
+            "ending_in": {
+                "S": "82784"
+            },
+            "search_resource": {
+                "S": "ACCOUNT#DELETED#2019-09-07T00:00:00"
+            },
+            "external_id": {
+                "S": "ABA819"
+            },
+            "id": {
+                "S": "13284fa7-28fa-4a13-b902-a373e59bb3a7"
+            },
+            "org_corp": {
+                "S": "e4c82a64-9bac-45a6-94ab-0af6352f01cb#13afc650-1d5c-4f71-a164-55209b11d299"
+            },
+            "corporation_id": {
+                "S": "13afc650-1d5c-4f71-a164-55209b11d299"
+            }
+        },
+        {
+            "created_at": {
+                "S": "2019-09-11T00:00:00.000"
+            },
+            "partition_key": {
+                "S": "e4c82a64-9bac-45a6-94ab-0af6352f01cb#13afc650-1d5c-4f71-a164-55209b11d299#0df745ac-00ce-44cb-aa4f-38f02f24d1ab"
+            },
+            "currency_code": {
+                "S": "MXN"
+            },
+            "lorem_contract_id": {
+                "S": "e95963a2-8af5-40d2-9c5c-eb6108b8cb41"
+            },
+            "filters": {
+                "S": "DELETED#2019-09-11T00:00:00"
+            },
+            "org_id": {
+                "S": "e4c82a64-9bac-45a6-94ab-0af6352f01cb"
+            },
+            "number": {
+                "S": "2ec402ee-ed08-4c68-bc2e-ac13c6fc6f82"
+            },
+            "ending_in": {
+                "S": "81785"
+            },
+            "search_resource": {
+                "S": "ACCOUNT#DELETED#2019-09-11T00:00:00"
+            },
+            "external_id": {
+                "S": "ABA502"
+            },
+            "id": {
+                "S": "0df745ac-00ce-44cb-aa4f-38f02f24d1ab"
+            },
+            "org_corp": {
+                "S": "e4c82a64-9bac-45a6-94ab-0af6352f01cb#13afc650-1d5c-4f71-a164-55209b11d299"
+            },
+            "corporation_id": {
+                "S": "13afc650-1d5c-4f71-a164-55209b11d299"
+            }
+        },
+        {
+            "created_at": {
+                "S": "2019-09-11T00:00:00.000"
+            },
+            "partition_key": {
+                "S": "e4c82a64-9bac-45a6-94ab-0af6352f01cb#13afc650-1d5c-4f71-a164-55209b11d299#585468e1-68f6-4973-908e-52e6baa6e68a"
+            },
+            "currency_code": {
+                "S": "MXN"
+            },
+            "lorem_contract_id": {
+                "S": "8ff5751b-8fae-44f1-9bbe-447d500360ee"
+            },
+            "filters": {
+                "S": "DELETED#2019-09-11T00:00:00"
+            },
+            "org_id": {
+                "S": "e4c82a64-9bac-45a6-94ab-0af6352f01cb"
+            },
+            "number": {
+                "S": "193229bf-31ca-48b3-b606-7776db9e155e"
+            },
+            "ending_in": {
+                "S": "82912"
+            },
+            "search_resource": {
+                "S": "ACCOUNT#DELETED#2019-09-11T00:00:00"
+            },
+            "external_id": {
+                "S": "AAA787"
+            },
+            "id": {
+                "S": "585468e1-68f6-4973-908e-52e6baa6e68a"
+            },
+            "org_corp": {
+                "S": "e4c82a64-9bac-45a6-94ab-0af6352f01cb#13afc650-1d5c-4f71-a164-55209b11d299"
+            },
+            "corporation_id": {
+                "S": "13afc650-1d5c-4f71-a164-55209b11d299"
+            }
+        },
+        {
+            "created_at": {
+                "S": "2019-09-11T00:00:00.000"
+            },
+            "partition_key": {
+                "S": "e4c82a64-9bac-45a6-94ab-0af6352f01cb#13afc650-1d5c-4f71-a164-55209b11d299#ff7ce2ee-df06-4de9-ac42-dc1908ace657"
+            },
+            "currency_code": {
+                "S": "MXN"
+            },
+            "lorem_contract_id": {
+                "S": "da78ffcf-65b2-409c-bc1d-a2f084ba8401"
+            },
+            "filters": {
+                "S": "DELETED#2019-09-11T00:00:00"
+            },
+            "org_id": {
+                "S": "e4c82a64-9bac-45a6-94ab-0af6352f01cb"
+            },
+            "number": {
+                "S": "7f45fe02-be1f-4ebb-95ab-e59d2f98f9db"
+            },
+            "ending_in": {
+                "S": "80002"
+            },
+            "search_resource": {
+                "S": "ACCOUNT#DELETED#2019-09-11T00:00:00"
+            },
+            "external_id": {
+                "S": "ABA382"
+            },
+            "id": {
+                "S": "ff7ce2ee-df06-4de9-ac42-dc1908ace657"
+            },
+            "org_corp": {
+                "S": "e4c82a64-9bac-45a6-94ab-0af6352f01cb#13afc650-1d5c-4f71-a164-55209b11d299"
+            },
+            "corporation_id": {
+                "S": "13afc650-1d5c-4f71-a164-55209b11d299"
+            }
+        },
+        {
+            "created_at": {
+                "S": "2019-09-11T00:00:00.000"
+            },
+            "partition_key": {
+                "S": "e4c82a64-9bac-45a6-94ab-0af6352f01cb#13afc650-1d5c-4f71-a164-55209b11d299#a3cbd037-990e-4740-b966-721384a6a261"
+            },
+            "currency_code": {
+                "S": "MXN"
+            },
+            "lorem_contract_id": {
+                "S": "3704dacc-59b1-4010-bfca-9c0f7116354a"
+            },
+            "filters": {
+                "S": "DELETED#2019-09-11T00:00:00"
+            },
+            "org_id": {
+                "S": "e4c82a64-9bac-45a6-94ab-0af6352f01cb"
+            },
+            "number": {
+                "S": "d785cb1c-4c58-4458-a7df-53de213d5089"
+            },
+            "ending_in": {
+                "S": "80074"
+            },
+            "search_resource": {
+                "S": "ACCOUNT#DELETED#2019-09-11T00:00:00"
+            },
+            "external_id": {
+                "S": "ABA597"
+            },
+            "id": {
+                "S": "a3cbd037-990e-4740-b966-721384a6a261"
+            },
+            "org_corp": {
+                "S": "e4c82a64-9bac-45a6-94ab-0af6352f01cb#13afc650-1d5c-4f71-a164-55209b11d299"
+            },
+            "corporation_id": {
+                "S": "13afc650-1d5c-4f71-a164-55209b11d299"
+            }
+        },
+        {
+            "created_at": {
+                "S": "2019-09-12T00:00:00.000"
+            },
+            "partition_key": {
+                "S": "e4c82a64-9bac-45a6-94ab-0af6352f01cb#13afc650-1d5c-4f71-a164-55209b11d299#1ce38b67-c5c2-4388-b7e2-442bde0fd78e"
+            },
+            "currency_code": {
+                "S": "MXN"
+            },
+            "lorem_contract_id": {
+                "S": "b120b227-aa43-46da-b0b8-421558a5dd8a"
+            },
+            "filters": {
+                "S": "DELETED#2019-09-12T00:00:00"
+            },
+            "org_id": {
+                "S": "e4c82a64-9bac-45a6-94ab-0af6352f01cb"
+            },
+            "number": {
+                "S": "171785f3-58f2-4721-a406-08e0e3f42c0b"
+            },
+            "ending_in": {
+                "S": "80985"
+            },
+            "search_resource": {
+                "S": "ACCOUNT#DELETED#2019-09-12T00:00:00"
+            },
+            "external_id": {
+                "S": "ABA117"
+            },
+            "id": {
+                "S": "1ce38b67-c5c2-4388-b7e2-442bde0fd78e"
+            },
+            "org_corp": {
+                "S": "e4c82a64-9bac-45a6-94ab-0af6352f01cb#13afc650-1d5c-4f71-a164-55209b11d299"
+            },
+            "corporation_id": {
+                "S": "13afc650-1d5c-4f71-a164-55209b11d299"
+            }
+        },
+        {
+            "created_at": {
+                "S": "2019-09-12T00:00:00.000"
+            },
+            "partition_key": {
+                "S": "e4c82a64-9bac-45a6-94ab-0af6352f01cb#13afc650-1d5c-4f71-a164-55209b11d299#19276c2b-6654-467d-9503-d84e63ef4780"
+            },
+            "currency_code": {
+                "S": "MXN"
+            },
+            "lorem_contract_id": {
+                "S": "5c5760b5-96cb-4931-8d3e-f3d78d87ecbc"
+            },
+            "filters": {
+                "S": "DELETED#2019-09-12T00:00:00"
+            },
+            "org_id": {
+                "S": "e4c82a64-9bac-45a6-94ab-0af6352f01cb"
+            },
+            "number": {
+                "S": "959cf3f8-b344-4409-848e-29a247e227de"
+            },
+            "ending_in": {
+                "S": "81585"
+            },
+            "search_resource": {
+                "S": "ACCOUNT#DELETED#2019-09-12T00:00:00"
+            },
+            "external_id": {
+                "S": "ABA686"
+            },
+            "id": {
+                "S": "19276c2b-6654-467d-9503-d84e63ef4780"
+            },
+            "org_corp": {
+                "S": "e4c82a64-9bac-45a6-94ab-0af6352f01cb#13afc650-1d5c-4f71-a164-55209b11d299"
+            },
+            "corporation_id": {
+                "S": "13afc650-1d5c-4f71-a164-55209b11d299"
+            }
+        },
+        {
+            "created_at": {
+                "S": "2019-09-12T00:00:00.000"
+            },
+            "partition_key": {
+                "S": "e4c82a64-9bac-45a6-94ab-0af6352f01cb#13afc650-1d5c-4f71-a164-55209b11d299#8550451d-f279-4913-bd7b-54431062834c"
+            },
+            "currency_code": {
+                "S": "MXN"
+            },
+            "lorem_contract_id": {
+                "S": "9d2d7fa1-6cd5-4704-a19d-d38e767c22da"
+            },
+            "filters": {
+                "S": "DELETED#2019-09-12T00:00:00"
+            },
+            "org_id": {
+                "S": "e4c82a64-9bac-45a6-94ab-0af6352f01cb"
+            },
+            "number": {
+                "S": "ace68316-0717-4b9b-a962-bdb7e3c4baac"
+            },
+            "ending_in": {
+                "S": "80114"
+            },
+            "search_resource": {
+                "S": "ACCOUNT#DELETED#2019-09-12T00:00:00"
+            },
+            "external_id": {
+                "S": "ABA179"
+            },
+            "id": {
+                "S": "8550451d-f279-4913-bd7b-54431062834c"
+            },
+            "org_corp": {
+                "S": "e4c82a64-9bac-45a6-94ab-0af6352f01cb#13afc650-1d5c-4f71-a164-55209b11d299"
+            },
+            "corporation_id": {
+                "S": "13afc650-1d5c-4f71-a164-55209b11d299"
+            }
+        },
+        {
+            "created_at": {
+                "S": "2019-09-12T00:00:00.000"
+            },
+            "partition_key": {
+                "S": "e4c82a64-9bac-45a6-94ab-0af6352f01cb#13afc650-1d5c-4f71-a164-55209b11d299#678b85e0-b93d-424d-8693-c52e5dd1541b"
+            },
+            "currency_code": {
+                "S": "MXN"
+            },
+            "lorem_contract_id": {
+                "S": "d507a876-cd5c-4371-900a-4819c10761ce"
+            },
+            "filters": {
+                "S": "DELETED#2019-09-12T00:00:00"
+            },
+            "org_id": {
+                "S": "e4c82a64-9bac-45a6-94ab-0af6352f01cb"
+            },
+            "number": {
+                "S": "cdb4a6a1-9629-40b3-857a-a3dffa377bbb"
+            },
+            "ending_in": {
+                "S": "80918"
+            },
+            "search_resource": {
+                "S": "ACCOUNT#DELETED#2019-09-12T00:00:00"
+            },
+            "external_id": {
+                "S": "ABA206"
+            },
+            "id": {
+                "S": "678b85e0-b93d-424d-8693-c52e5dd1541b"
+            },
+            "org_corp": {
+                "S": "e4c82a64-9bac-45a6-94ab-0af6352f01cb#13afc650-1d5c-4f71-a164-55209b11d299"
+            },
+            "corporation_id": {
+                "S": "13afc650-1d5c-4f71-a164-55209b11d299"
+            }
+        },
+        {
+            "created_at": {
+                "S": "2019-09-13T00:00:00.000"
+            },
+            "partition_key": {
+                "S": "e4c82a64-9bac-45a6-94ab-0af6352f01cb#13afc650-1d5c-4f71-a164-55209b11d299#a74b1122-e9e8-4168-bb58-d2902bdb041e"
+            },
+            "currency_code": {
+                "S": "MXN"
+            },
+            "lorem_contract_id": {
+                "S": "3dc4aa1f-1edb-4ed5-8395-0e3c0909ee94"
+            },
+            "filters": {
+                "S": "DELETED#2019-09-13T00:00:00"
+            },
+            "org_id": {
+                "S": "e4c82a64-9bac-45a6-94ab-0af6352f01cb"
+            },
+            "number": {
+                "S": "cf1d264d-fe08-467c-92fe-75c85f1fd861"
+            },
+            "ending_in": {
+                "S": "82469"
+            },
+            "search_resource": {
+                "S": "ACCOUNT#DELETED#2019-09-13T00:00:00"
+            },
+            "external_id": {
+                "S": "AAA387"
+            },
+            "id": {
+                "S": "a74b1122-e9e8-4168-bb58-d2902bdb041e"
+            },
+            "org_corp": {
+                "S": "e4c82a64-9bac-45a6-94ab-0af6352f01cb#13afc650-1d5c-4f71-a164-55209b11d299"
+            },
+            "corporation_id": {
+                "S": "13afc650-1d5c-4f71-a164-55209b11d299"
+            }
+        },
+        {
+            "created_at": {
+                "S": "2019-09-13T00:00:00.000"
+            },
+            "partition_key": {
+                "S": "e4c82a64-9bac-45a6-94ab-0af6352f01cb#13afc650-1d5c-4f71-a164-55209b11d299#fa78b98f-fc4c-4a5a-a233-fbe156ebb79c"
+            },
+            "currency_code": {
+                "S": "MXN"
+            },
+            "lorem_contract_id": {
+                "S": "ace2d312-ea17-44c5-8a2f-d5fb0885a515"
+            },
+            "filters": {
+                "S": "DELETED#2019-09-13T00:00:00"
+            },
+            "org_id": {
+                "S": "e4c82a64-9bac-45a6-94ab-0af6352f01cb"
+            },
+            "number": {
+                "S": "e5818198-ab53-4699-95e6-5a4c59da8880"
+            },
+            "ending_in": {
+                "S": "80479"
+            },
+            "search_resource": {
+                "S": "ACCOUNT#DELETED#2019-09-13T00:00:00"
+            },
+            "external_id": {
+                "S": "ABA352"
+            },
+            "id": {
+                "S": "fa78b98f-fc4c-4a5a-a233-fbe156ebb79c"
+            },
+            "org_corp": {
+                "S": "e4c82a64-9bac-45a6-94ab-0af6352f01cb#13afc650-1d5c-4f71-a164-55209b11d299"
+            },
+            "corporation_id": {
+                "S": "13afc650-1d5c-4f71-a164-55209b11d299"
+            }
+        },
+        {
+            "created_at": {
+                "S": "2019-09-14T00:00:00.000"
+            },
+            "partition_key": {
+                "S": "e4c82a64-9bac-45a6-94ab-0af6352f01cb#13afc650-1d5c-4f71-a164-55209b11d299#3da963ca-f9a9-4e4e-9772-de2c2e2d5b61"
+            },
+            "currency_code": {
+                "S": "MXN"
+            },
+            "lorem_contract_id": {
+                "S": "2823826b-b11c-47db-8267-329b46b15dd3"
+            },
+            "filters": {
+                "S": "DELETED#2019-09-14T00:00:00"
+            },
+            "org_id": {
+                "S": "e4c82a64-9bac-45a6-94ab-0af6352f01cb"
+            },
+            "number": {
+                "S": "1c8d65f5-e401-4e3e-a74f-823786010d45"
+            },
+            "ending_in": {
+                "S": "80822"
+            },
+            "search_resource": {
+                "S": "ACCOUNT#DELETED#2019-09-14T00:00:00"
+            },
+            "external_id": {
+                "S": "AAA898"
+            },
+            "id": {
+                "S": "3da963ca-f9a9-4e4e-9772-de2c2e2d5b61"
+            },
+            "org_corp": {
+                "S": "e4c82a64-9bac-45a6-94ab-0af6352f01cb#13afc650-1d5c-4f71-a164-55209b11d299"
+            },
+            "corporation_id": {
+                "S": "13afc650-1d5c-4f71-a164-55209b11d299"
+            }
+        },
+        {
+            "created_at": {
+                "S": "2019-09-15T00:00:00.000"
+            },
+            "partition_key": {
+                "S": "e4c82a64-9bac-45a6-94ab-0af6352f01cb#13afc650-1d5c-4f71-a164-55209b11d299#bee9717d-9803-4d30-90ae-3762f509c56a"
+            },
+            "currency_code": {
+                "S": "MXN"
+            },
+            "lorem_contract_id": {
+                "S": "0178398f-1397-4ebf-a9e0-5352a04f8af5"
+            },
+            "filters": {
+                "S": "DELETED#2019-09-15T00:00:00"
+            },
+            "org_id": {
+                "S": "e4c82a64-9bac-45a6-94ab-0af6352f01cb"
+            },
+            "number": {
+                "S": "905fbbf1-97f3-4cb6-b292-cfe0fd200b20"
+            },
+            "ending_in": {
+                "S": "82611"
+            },
+            "search_resource": {
+                "S": "ACCOUNT#DELETED#2019-09-15T00:00:00"
+            },
+            "external_id": {
+                "S": "AAA727"
+            },
+            "id": {
+                "S": "bee9717d-9803-4d30-90ae-3762f509c56a"
+            },
+            "org_corp": {
+                "S": "e4c82a64-9bac-45a6-94ab-0af6352f01cb#13afc650-1d5c-4f71-a164-55209b11d299"
+            },
+            "corporation_id": {
+                "S": "13afc650-1d5c-4f71-a164-55209b11d299"
+            }
+        },
+        {
+            "created_at": {
+                "S": "2019-09-18T00:00:00.000"
+            },
+            "partition_key": {
+                "S": "e4c82a64-9bac-45a6-94ab-0af6352f01cb#13afc650-1d5c-4f71-a164-55209b11d299#32538f02-5905-4d58-8f6c-1c716a9b4163"
+            },
+            "currency_code": {
+                "S": "MXN"
+            },
+            "lorem_contract_id": {
+                "S": "a1e33dcb-866a-429d-86b8-98ab015b39fe"
+            },
+            "filters": {
+                "S": "DELETED#2019-09-18T00:00:00"
+            },
+            "org_id": {
+                "S": "e4c82a64-9bac-45a6-94ab-0af6352f01cb"
+            },
+            "number": {
+                "S": "9f4e0c20-d96a-4943-8fa9-3c54e549395c"
+            },
+            "ending_in": {
+                "S": "81909"
+            },
+            "search_resource": {
+                "S": "ACCOUNT#DELETED#2019-09-18T00:00:00"
+            },
+            "external_id": {
+                "S": "ABA349"
+            },
+            "id": {
+                "S": "32538f02-5905-4d58-8f6c-1c716a9b4163"
+            },
+            "org_corp": {
+                "S": "e4c82a64-9bac-45a6-94ab-0af6352f01cb#13afc650-1d5c-4f71-a164-55209b11d299"
+            },
+            "corporation_id": {
+                "S": "13afc650-1d5c-4f71-a164-55209b11d299"
+            }
+        },
+        {
+            "created_at": {
+                "S": "2019-09-18T00:00:00.000"
+            },
+            "partition_key": {
+                "S": "e4c82a64-9bac-45a6-94ab-0af6352f01cb#13afc650-1d5c-4f71-a164-55209b11d299#c11ff644-be44-4ae9-86db-df0bc7c9c984"
+            },
+            "currency_code": {
+                "S": "MXN"
+            },
+            "lorem_contract_id": {
+                "S": "38413c64-577b-4c04-b224-3977b13e2d9d"
+            },
+            "filters": {
+                "S": "DELETED#2019-09-18T00:00:00"
+            },
+            "org_id": {
+                "S": "e4c82a64-9bac-45a6-94ab-0af6352f01cb"
+            },
+            "number": {
+                "S": "34316a5a-e384-4047-a5f1-1dd8ad23dbff"
+            },
+            "ending_in": {
+                "S": "81143"
+            },
+            "search_resource": {
+                "S": "ACCOUNT#DELETED#2019-09-18T00:00:00"
+            },
+            "external_id": {
+                "S": "AAA152"
+            },
+            "id": {
+                "S": "c11ff644-be44-4ae9-86db-df0bc7c9c984"
+            },
+            "org_corp": {
+                "S": "e4c82a64-9bac-45a6-94ab-0af6352f01cb#13afc650-1d5c-4f71-a164-55209b11d299"
+            },
+            "corporation_id": {
+                "S": "13afc650-1d5c-4f71-a164-55209b11d299"
+            }
+        },
+        {
+            "created_at": {
+                "S": "2019-09-19T00:00:00.000"
+            },
+            "partition_key": {
+                "S": "e4c82a64-9bac-45a6-94ab-0af6352f01cb#13afc650-1d5c-4f71-a164-55209b11d299#02a854a7-0e4e-470e-838c-94997a4ef2a3"
+            },
+            "currency_code": {
+                "S": "MXN"
+            },
+            "lorem_contract_id": {
+                "S": "bf16c5bc-9015-4348-be4c-9fbf32311aa7"
+            },
+            "filters": {
+                "S": "DELETED#2019-09-19T00:00:00"
+            },
+            "org_id": {
+                "S": "e4c82a64-9bac-45a6-94ab-0af6352f01cb"
+            },
+            "number": {
+                "S": "3ffdf2e1-3844-4e9d-9b3e-0adde7400d7d"
+            },
+            "ending_in": {
+                "S": "81068"
+            },
+            "search_resource": {
+                "S": "ACCOUNT#DELETED#2019-09-19T00:00:00"
+            },
+            "external_id": {
+                "S": "ABA831"
+            },
+            "id": {
+                "S": "02a854a7-0e4e-470e-838c-94997a4ef2a3"
+            },
+            "org_corp": {
+                "S": "e4c82a64-9bac-45a6-94ab-0af6352f01cb#13afc650-1d5c-4f71-a164-55209b11d299"
+            },
+            "corporation_id": {
+                "S": "13afc650-1d5c-4f71-a164-55209b11d299"
+            }
+        },
+        {
+            "created_at": {
+                "S": "2019-09-19T00:00:00.000"
+            },
+            "partition_key": {
+                "S": "e4c82a64-9bac-45a6-94ab-0af6352f01cb#13afc650-1d5c-4f71-a164-55209b11d299#fe6dd912-b37a-4c80-9c86-7be88c7bdf0a"
+            },
+            "currency_code": {
+                "S": "MXN"
+            },
+            "lorem_contract_id": {
+                "S": "e46959ae-8fa1-4a02-82ef-ca6e519b385e"
+            },
+            "filters": {
+                "S": "DELETED#2019-09-19T00:00:00"
+            },
+            "org_id": {
+                "S": "e4c82a64-9bac-45a6-94ab-0af6352f01cb"
+            },
+            "number": {
+                "S": "d171500e-c7eb-457f-b298-977644ab7f46"
+            },
+            "ending_in": {
+                "S": "82346"
+            },
+            "search_resource": {
+                "S": "ACCOUNT#DELETED#2019-09-19T00:00:00"
+            },
+            "external_id": {
+                "S": "AAA814"
+            },
+            "id": {
+                "S": "fe6dd912-b37a-4c80-9c86-7be88c7bdf0a"
+            },
+            "org_corp": {
+                "S": "e4c82a64-9bac-45a6-94ab-0af6352f01cb#13afc650-1d5c-4f71-a164-55209b11d299"
+            },
+            "corporation_id": {
+                "S": "13afc650-1d5c-4f71-a164-55209b11d299"
+            }
+        },
+        {
+            "created_at": {
+                "S": "2019-09-21T00:00:00.000"
+            },
+            "partition_key": {
+                "S": "e4c82a64-9bac-45a6-94ab-0af6352f01cb#13afc650-1d5c-4f71-a164-55209b11d299#97d58ece-37bf-4d03-ab7f-b520e668546b"
+            },
+            "currency_code": {
+                "S": "MXN"
+            },
+            "lorem_contract_id": {
+                "S": "91aa16e3-81d7-4216-9603-1197494817bc"
+            },
+            "filters": {
+                "S": "DELETED#2019-09-21T00:00:00"
+            },
+            "org_id": {
+                "S": "e4c82a64-9bac-45a6-94ab-0af6352f01cb"
+            },
+            "number": {
+                "S": "5a24598f-fc64-4da2-8bd6-b597aa82cc9f"
+            },
+            "ending_in": {
+                "S": "80713"
+            },
+            "search_resource": {
+                "S": "ACCOUNT#DELETED#2019-09-21T00:00:00"
+            },
+            "external_id": {
+                "S": "ABA827"
+            },
+            "id": {
+                "S": "97d58ece-37bf-4d03-ab7f-b520e668546b"
+            },
+            "org_corp": {
+                "S": "e4c82a64-9bac-45a6-94ab-0af6352f01cb#13afc650-1d5c-4f71-a164-55209b11d299"
+            },
+            "corporation_id": {
+                "S": "13afc650-1d5c-4f71-a164-55209b11d299"
+            }
+        },
+        {
+            "created_at": {
+                "S": "2019-09-21T00:00:00.000"
+            },
+            "partition_key": {
+                "S": "e4c82a64-9bac-45a6-94ab-0af6352f01cb#13afc650-1d5c-4f71-a164-55209b11d299#bc314e28-c4f6-43e6-a7af-c433d21c1b96"
+            },
+            "currency_code": {
+                "S": "MXN"
+            },
+            "lorem_contract_id": {
+                "S": "f51274cd-8b8b-4297-a5d3-c4ba9901a71d"
+            },
+            "filters": {
+                "S": "DELETED#2019-09-21T00:00:00"
+            },
+            "org_id": {
+                "S": "e4c82a64-9bac-45a6-94ab-0af6352f01cb"
+            },
+            "number": {
+                "S": "541da7da-3e44-42d9-a38e-d5d0b7cacd04"
+            },
+            "ending_in": {
+                "S": "81889"
+            },
+            "search_resource": {
+                "S": "ACCOUNT#DELETED#2019-09-21T00:00:00"
+            },
+            "external_id": {
+                "S": "AAA310"
+            },
+            "id": {
+                "S": "bc314e28-c4f6-43e6-a7af-c433d21c1b96"
+            },
+            "org_corp": {
+                "S": "e4c82a64-9bac-45a6-94ab-0af6352f01cb#13afc650-1d5c-4f71-a164-55209b11d299"
+            },
+            "corporation_id": {
+                "S": "13afc650-1d5c-4f71-a164-55209b11d299"
+            }
+        },
+        {
+            "created_at": {
+                "S": "2019-09-21T00:00:00.000"
+            },
+            "partition_key": {
+                "S": "e4c82a64-9bac-45a6-94ab-0af6352f01cb#13afc650-1d5c-4f71-a164-55209b11d299#4b94d8f3-06d7-4b20-939a-d9535b145f07"
+            },
+            "currency_code": {
+                "S": "MXN"
+            },
+            "lorem_contract_id": {
+                "S": "b4002701-ad25-4232-8c8f-83499d642878"
+            },
+            "filters": {
+                "S": "DELETED#2019-09-21T00:00:00"
+            },
+            "org_id": {
+                "S": "e4c82a64-9bac-45a6-94ab-0af6352f01cb"
+            },
+            "number": {
+                "S": "a1f5396b-7f8b-4e56-a553-983cd76b19cf"
+            },
+            "ending_in": {
+                "S": "80799"
+            },
+            "search_resource": {
+                "S": "ACCOUNT#DELETED#2019-09-21T00:00:00"
+            },
+            "external_id": {
+                "S": "AAA940"
+            },
+            "id": {
+                "S": "4b94d8f3-06d7-4b20-939a-d9535b145f07"
+            },
+            "org_corp": {
+                "S": "e4c82a64-9bac-45a6-94ab-0af6352f01cb#13afc650-1d5c-4f71-a164-55209b11d299"
+            },
+            "corporation_id": {
+                "S": "13afc650-1d5c-4f71-a164-55209b11d299"
+            }
+        },
+        {
+            "created_at": {
+                "S": "2019-09-21T00:00:00.000"
+            },
+            "partition_key": {
+                "S": "e4c82a64-9bac-45a6-94ab-0af6352f01cb#13afc650-1d5c-4f71-a164-55209b11d299#02cffb51-4e9c-42f8-9e51-40bf9e5fbb6b"
+            },
+            "currency_code": {
+                "S": "MXN"
+            },
+            "lorem_contract_id": {
+                "S": "69899db4-533a-4a0b-8101-c22e9868c688"
+            },
+            "filters": {
+                "S": "DELETED#2019-09-21T00:00:00"
+            },
+            "org_id": {
+                "S": "e4c82a64-9bac-45a6-94ab-0af6352f01cb"
+            },
+            "number": {
+                "S": "5440316f-ceb5-417d-bbf5-b746e897263c"
+            },
+            "ending_in": {
+                "S": "82270"
+            },
+            "search_resource": {
+                "S": "ACCOUNT#DELETED#2019-09-21T00:00:00"
+            },
+            "external_id": {
+                "S": "AAA598"
+            },
+            "id": {
+                "S": "02cffb51-4e9c-42f8-9e51-40bf9e5fbb6b"
+            },
+            "org_corp": {
+                "S": "e4c82a64-9bac-45a6-94ab-0af6352f01cb#13afc650-1d5c-4f71-a164-55209b11d299"
+            },
+            "corporation_id": {
+                "S": "13afc650-1d5c-4f71-a164-55209b11d299"
+            }
+        },
+        {
+            "created_at": {
+                "S": "2019-09-22T00:00:00.000"
+            },
+            "partition_key": {
+                "S": "e4c82a64-9bac-45a6-94ab-0af6352f01cb#13afc650-1d5c-4f71-a164-55209b11d299#04569957-4f41-4fde-945b-94e67b01e014"
+            },
+            "currency_code": {
+                "S": "MXN"
+            },
+            "lorem_contract_id": {
+                "S": "721e2848-c824-4a75-b3ef-4975ba731d70"
+            },
+            "filters": {
+                "S": "DELETED#2019-09-22T00:00:00"
+            },
+            "org_id": {
+                "S": "e4c82a64-9bac-45a6-94ab-0af6352f01cb"
+            },
+            "number": {
+                "S": "22f9ce09-9ae6-4591-b010-d8d5c0cd55ac"
+            },
+            "ending_in": {
+                "S": "81142"
+            },
+            "search_resource": {
+                "S": "ACCOUNT#DELETED#2019-09-22T00:00:00"
+            },
+            "external_id": {
+                "S": "AAA340"
+            },
+            "id": {
+                "S": "04569957-4f41-4fde-945b-94e67b01e014"
+            },
+            "org_corp": {
+                "S": "e4c82a64-9bac-45a6-94ab-0af6352f01cb#13afc650-1d5c-4f71-a164-55209b11d299"
+            },
+            "corporation_id": {
+                "S": "13afc650-1d5c-4f71-a164-55209b11d299"
+            }
+        },
+        {
+            "created_at": {
+                "S": "2019-09-22T00:00:00.000"
+            },
+            "partition_key": {
+                "S": "e4c82a64-9bac-45a6-94ab-0af6352f01cb#13afc650-1d5c-4f71-a164-55209b11d299#6c6f816b-b246-45cf-9c40-dcd7b7e54502"
+            },
+            "currency_code": {
+                "S": "MXN"
+            },
+            "lorem_contract_id": {
+                "S": "f7758f78-bea1-4cd2-b523-1985b0937c01"
+            },
+            "filters": {
+                "S": "DELETED#2019-09-22T00:00:00"
+            },
+            "org_id": {
+                "S": "e4c82a64-9bac-45a6-94ab-0af6352f01cb"
+            },
+            "number": {
+                "S": "c3a1cd0f-e4f0-4615-b850-eda867701397"
+            },
+            "ending_in": {
+                "S": "82059"
+            },
+            "search_resource": {
+                "S": "ACCOUNT#DELETED#2019-09-22T00:00:00"
+            },
+            "external_id": {
+                "S": "AAA373"
+            },
+            "id": {
+                "S": "6c6f816b-b246-45cf-9c40-dcd7b7e54502"
+            },
+            "org_corp": {
+                "S": "e4c82a64-9bac-45a6-94ab-0af6352f01cb#13afc650-1d5c-4f71-a164-55209b11d299"
+            },
+            "corporation_id": {
+                "S": "13afc650-1d5c-4f71-a164-55209b11d299"
+            }
+        },
+        {
+            "created_at": {
+                "S": "2019-09-23T00:00:00.000"
+            },
+            "partition_key": {
+                "S": "e4c82a64-9bac-45a6-94ab-0af6352f01cb#13afc650-1d5c-4f71-a164-55209b11d299#bac2cafb-b5b1-4a00-bfb7-d8360dab4dc6"
+            },
+            "currency_code": {
+                "S": "MXN"
+            },
+            "lorem_contract_id": {
+                "S": "ac9d991a-69de-4d0f-99ae-8bb5f9e96d64"
+            },
+            "filters": {
+                "S": "DELETED#2019-09-23T00:00:00"
+            },
+            "org_id": {
+                "S": "e4c82a64-9bac-45a6-94ab-0af6352f01cb"
+            },
+            "number": {
+                "S": "65669e82-cd76-4c3e-9210-0e4f81247ab3"
+            },
+            "ending_in": {
+                "S": "81938"
+            },
+            "search_resource": {
+                "S": "ACCOUNT#DELETED#2019-09-23T00:00:00"
+            },
+            "external_id": {
+                "S": "ABA881"
+            },
+            "id": {
+                "S": "bac2cafb-b5b1-4a00-bfb7-d8360dab4dc6"
+            },
+            "org_corp": {
+                "S": "e4c82a64-9bac-45a6-94ab-0af6352f01cb#13afc650-1d5c-4f71-a164-55209b11d299"
+            },
+            "corporation_id": {
+                "S": "13afc650-1d5c-4f71-a164-55209b11d299"
+            }
+        },
+        {
+            "created_at": {
+                "S": "2019-09-23T00:00:00.000"
+            },
+            "partition_key": {
+                "S": "e4c82a64-9bac-45a6-94ab-0af6352f01cb#13afc650-1d5c-4f71-a164-55209b11d299#33dcda23-2e3b-4866-909b-cc0426431847"
+            },
+            "currency_code": {
+                "S": "MXN"
+            },
+            "lorem_contract_id": {
+                "S": "9a458893-3f0c-4b9f-aee8-0aeffe44a742"
+            },
+            "filters": {
+                "S": "DELETED#2019-09-23T00:00:00"
+            },
+            "org_id": {
+                "S": "e4c82a64-9bac-45a6-94ab-0af6352f01cb"
+            },
+            "number": {
+                "S": "ef836dd6-2271-43d8-a760-f30fde49fc5d"
+            },
+            "ending_in": {
+                "S": "81460"
+            },
+            "search_resource": {
+                "S": "ACCOUNT#DELETED#2019-09-23T00:00:00"
+            },
+            "external_id": {
+                "S": "ABA475"
+            },
+            "id": {
+                "S": "33dcda23-2e3b-4866-909b-cc0426431847"
+            },
+            "org_corp": {
+                "S": "e4c82a64-9bac-45a6-94ab-0af6352f01cb#13afc650-1d5c-4f71-a164-55209b11d299"
+            },
+            "corporation_id": {
+                "S": "13afc650-1d5c-4f71-a164-55209b11d299"
+            }
+        },
+        {
+            "created_at": {
+                "S": "2019-09-24T00:00:00.000"
+            },
+            "partition_key": {
+                "S": "e4c82a64-9bac-45a6-94ab-0af6352f01cb#13afc650-1d5c-4f71-a164-55209b11d299#2e1d8625-0b57-40d5-8d0f-0640dfbcf308"
+            },
+            "currency_code": {
+                "S": "MXN"
+            },
+            "lorem_contract_id": {
+                "S": "8f0cc624-fc80-46c0-997e-11456bea5ee3"
+            },
+            "filters": {
+                "S": "DELETED#2019-09-24T00:00:00"
+            },
+            "org_id": {
+                "S": "e4c82a64-9bac-45a6-94ab-0af6352f01cb"
+            },
+            "number": {
+                "S": "6b273e42-b48f-4d55-9d23-6c6db501321d"
+            },
+            "ending_in": {
+                "S": "80911"
+            },
+            "search_resource": {
+                "S": "ACCOUNT#DELETED#2019-09-24T00:00:00"
+            },
+            "external_id": {
+                "S": "ABA533"
+            },
+            "id": {
+                "S": "2e1d8625-0b57-40d5-8d0f-0640dfbcf308"
+            },
+            "org_corp": {
+                "S": "e4c82a64-9bac-45a6-94ab-0af6352f01cb#13afc650-1d5c-4f71-a164-55209b11d299"
+            },
+            "corporation_id": {
+                "S": "13afc650-1d5c-4f71-a164-55209b11d299"
+            }
+        },
+        {
+            "created_at": {
+                "S": "2019-09-24T00:00:00.000"
+            },
+            "partition_key": {
+                "S": "e4c82a64-9bac-45a6-94ab-0af6352f01cb#13afc650-1d5c-4f71-a164-55209b11d299#220c8d36-c1d0-4d81-8058-4ba5f8839a84"
+            },
+            "currency_code": {
+                "S": "MXN"
+            },
+            "lorem_contract_id": {
+                "S": "02aeb910-2ec6-4119-90b0-e826774b7593"
+            },
+            "filters": {
+                "S": "DELETED#2019-09-24T00:00:00"
+            },
+            "org_id": {
+                "S": "e4c82a64-9bac-45a6-94ab-0af6352f01cb"
+            },
+            "number": {
+                "S": "55820225-02ac-46dd-a912-833b043de3ce"
+            },
+            "ending_in": {
+                "S": "81984"
+            },
+            "search_resource": {
+                "S": "ACCOUNT#DELETED#2019-09-24T00:00:00"
+            },
+            "external_id": {
+                "S": "ABA613"
+            },
+            "id": {
+                "S": "220c8d36-c1d0-4d81-8058-4ba5f8839a84"
+            },
+            "org_corp": {
+                "S": "e4c82a64-9bac-45a6-94ab-0af6352f01cb#13afc650-1d5c-4f71-a164-55209b11d299"
+            },
+            "corporation_id": {
+                "S": "13afc650-1d5c-4f71-a164-55209b11d299"
+            }
+        },
+        {
+            "created_at": {
+                "S": "2019-09-25T00:00:00.000"
+            },
+            "partition_key": {
+                "S": "e4c82a64-9bac-45a6-94ab-0af6352f01cb#13afc650-1d5c-4f71-a164-55209b11d299#74f68006-a0dc-4a3c-9da6-ea644e6ad2a1"
+            },
+            "currency_code": {
+                "S": "MXN"
+            },
+            "lorem_contract_id": {
+                "S": "1b026d79-4ba5-4679-a72a-d6c6f00546cd"
+            },
+            "filters": {
+                "S": "DELETED#2019-09-25T00:00:00"
+            },
+            "org_id": {
+                "S": "e4c82a64-9bac-45a6-94ab-0af6352f01cb"
+            },
+            "number": {
+                "S": "07c69898-7a2a-4737-9fe5-36647fce911c"
+            },
+            "ending_in": {
+                "S": "80014"
+            },
+            "search_resource": {
+                "S": "ACCOUNT#DELETED#2019-09-25T00:00:00"
+            },
+            "external_id": {
+                "S": "ABA545"
+            },
+            "id": {
+                "S": "74f68006-a0dc-4a3c-9da6-ea644e6ad2a1"
+            },
+            "org_corp": {
+                "S": "e4c82a64-9bac-45a6-94ab-0af6352f01cb#13afc650-1d5c-4f71-a164-55209b11d299"
+            },
+            "corporation_id": {
+                "S": "13afc650-1d5c-4f71-a164-55209b11d299"
+            }
+        },
+        {
+            "created_at": {
+                "S": "2019-09-25T00:00:00.000"
+            },
+            "partition_key": {
+                "S": "e4c82a64-9bac-45a6-94ab-0af6352f01cb#13afc650-1d5c-4f71-a164-55209b11d299#d089e20b-f804-4a77-a371-4eae4d5404aa"
+            },
+            "currency_code": {
+                "S": "MXN"
+            },
+            "lorem_contract_id": {
+                "S": "b28453c2-2ec7-4bd5-95a4-a8768ed943bd"
+            },
+            "filters": {
+                "S": "DELETED#2019-09-25T00:00:00"
+            },
+            "org_id": {
+                "S": "e4c82a64-9bac-45a6-94ab-0af6352f01cb"
+            },
+            "number": {
+                "S": "226f5129-0a1b-4d4d-aa5a-533e7f62cee7"
+            },
+            "ending_in": {
+                "S": "80156"
+            },
+            "search_resource": {
+                "S": "ACCOUNT#DELETED#2019-09-25T00:00:00"
+            },
+            "external_id": {
+                "S": "AAA152"
+            },
+            "id": {
+                "S": "d089e20b-f804-4a77-a371-4eae4d5404aa"
+            },
+            "org_corp": {
+                "S": "e4c82a64-9bac-45a6-94ab-0af6352f01cb#13afc650-1d5c-4f71-a164-55209b11d299"
+            },
+            "corporation_id": {
+                "S": "13afc650-1d5c-4f71-a164-55209b11d299"
+            }
+        },
+        {
+            "created_at": {
+                "S": "2019-09-26T00:00:00.000"
+            },
+            "partition_key": {
+                "S": "e4c82a64-9bac-45a6-94ab-0af6352f01cb#13afc650-1d5c-4f71-a164-55209b11d299#2d3ab1ab-38e2-43eb-bd27-505bf93a9e58"
+            },
+            "currency_code": {
+                "S": "MXN"
+            },
+            "lorem_contract_id": {
+                "S": "3d1597b9-d171-429e-8a8f-91e4ab8f04c1"
+            },
+            "filters": {
+                "S": "DELETED#2019-09-26T00:00:00"
+            },
+            "org_id": {
+                "S": "e4c82a64-9bac-45a6-94ab-0af6352f01cb"
+            },
+            "number": {
+                "S": "44c06e99-2090-4b6c-95f7-a57b14440906"
+            },
+            "ending_in": {
+                "S": "82783"
+            },
+            "search_resource": {
+                "S": "ACCOUNT#DELETED#2019-09-26T00:00:00"
+            },
+            "external_id": {
+                "S": "AAA844"
+            },
+            "id": {
+                "S": "2d3ab1ab-38e2-43eb-bd27-505bf93a9e58"
+            },
+            "org_corp": {
+                "S": "e4c82a64-9bac-45a6-94ab-0af6352f01cb#13afc650-1d5c-4f71-a164-55209b11d299"
+            },
+            "corporation_id": {
+                "S": "13afc650-1d5c-4f71-a164-55209b11d299"
+            }
+        },
+        {
+            "created_at": {
+                "S": "2019-09-26T00:00:00.000"
+            },
+            "partition_key": {
+                "S": "e4c82a64-9bac-45a6-94ab-0af6352f01cb#13afc650-1d5c-4f71-a164-55209b11d299#6e66f17d-9b0b-454c-a4a2-e740c0a1ddc8"
+            },
+            "currency_code": {
+                "S": "MXN"
+            },
+            "lorem_contract_id": {
+                "S": "af0293f1-379a-4908-8309-34539db8f011"
+            },
+            "filters": {
+                "S": "DELETED#2019-09-26T00:00:00"
+            },
+            "org_id": {
+                "S": "e4c82a64-9bac-45a6-94ab-0af6352f01cb"
+            },
+            "number": {
+                "S": "6fca6920-e65b-40e2-b513-606b5a98cea4"
+            },
+            "ending_in": {
+                "S": "82461"
+            },
+            "search_resource": {
+                "S": "ACCOUNT#DELETED#2019-09-26T00:00:00"
+            },
+            "external_id": {
+                "S": "AAA534"
+            },
+            "id": {
+                "S": "6e66f17d-9b0b-454c-a4a2-e740c0a1ddc8"
+            },
+            "org_corp": {
+                "S": "e4c82a64-9bac-45a6-94ab-0af6352f01cb#13afc650-1d5c-4f71-a164-55209b11d299"
+            },
+            "corporation_id": {
+                "S": "13afc650-1d5c-4f71-a164-55209b11d299"
+            }
+        },
+        {
+            "created_at": {
+                "S": "2019-09-27T00:00:00.000"
+            },
+            "partition_key": {
+                "S": "e4c82a64-9bac-45a6-94ab-0af6352f01cb#13afc650-1d5c-4f71-a164-55209b11d299#6a1db2bb-4920-41bb-bc01-32c4f019fde9"
+            },
+            "currency_code": {
+                "S": "MXN"
+            },
+            "lorem_contract_id": {
+                "S": "2bb8abe7-8a34-470f-a45f-61df1c51d1ea"
+            },
+            "filters": {
+                "S": "DELETED#2019-09-27T00:00:00"
+            },
+            "org_id": {
+                "S": "e4c82a64-9bac-45a6-94ab-0af6352f01cb"
+            },
+            "number": {
+                "S": "d5393eba-5f9e-4fd1-9ef6-8f2d61b278dc"
+            },
+            "ending_in": {
+                "S": "81825"
+            },
+            "search_resource": {
+                "S": "ACCOUNT#DELETED#2019-09-27T00:00:00"
+            },
+            "external_id": {
+                "S": "ABA363"
+            },
+            "id": {
+                "S": "6a1db2bb-4920-41bb-bc01-32c4f019fde9"
+            },
+            "org_corp": {
+                "S": "e4c82a64-9bac-45a6-94ab-0af6352f01cb#13afc650-1d5c-4f71-a164-55209b11d299"
+            },
+            "corporation_id": {
+                "S": "13afc650-1d5c-4f71-a164-55209b11d299"
+            }
+        },
+        {
+            "created_at": {
+                "S": "2019-09-28T00:00:00.000"
+            },
+            "partition_key": {
+                "S": "e4c82a64-9bac-45a6-94ab-0af6352f01cb#13afc650-1d5c-4f71-a164-55209b11d299#4683e8cd-2efd-45c1-b467-0ec96aee56f1"
+            },
+            "currency_code": {
+                "S": "MXN"
+            },
+            "lorem_contract_id": {
+                "S": "33e617c5-aa8c-4a96-aed1-119c72fb34bb"
+            },
+            "filters": {
+                "S": "DELETED#2019-09-28T00:00:00"
+            },
+            "org_id": {
+                "S": "e4c82a64-9bac-45a6-94ab-0af6352f01cb"
+            },
+            "number": {
+                "S": "d6165c05-ffe0-40cf-86fa-cf6acf67cde2"
+            },
+            "ending_in": {
+                "S": "81688"
+            },
+            "search_resource": {
+                "S": "ACCOUNT#DELETED#2019-09-28T00:00:00"
+            },
+            "external_id": {
+                "S": "AAA446"
+            },
+            "id": {
+                "S": "4683e8cd-2efd-45c1-b467-0ec96aee56f1"
+            },
+            "org_corp": {
+                "S": "e4c82a64-9bac-45a6-94ab-0af6352f01cb#13afc650-1d5c-4f71-a164-55209b11d299"
+            },
+            "corporation_id": {
+                "S": "13afc650-1d5c-4f71-a164-55209b11d299"
+            }
+        },
+        {
+            "created_at": {
+                "S": "2019-09-29T00:00:00.000"
+            },
+            "partition_key": {
+                "S": "e4c82a64-9bac-45a6-94ab-0af6352f01cb#13afc650-1d5c-4f71-a164-55209b11d299#aefc7b70-9ead-4f82-98d2-9649d693025a"
+            },
+            "currency_code": {
+                "S": "MXN"
+            },
+            "lorem_contract_id": {
+                "S": "fb197700-02f0-4569-874f-6823958df2d2"
+            },
+            "filters": {
+                "S": "DELETED#2019-09-29T00:00:00"
+            },
+            "org_id": {
+                "S": "e4c82a64-9bac-45a6-94ab-0af6352f01cb"
+            },
+            "number": {
+                "S": "d642c26c-bbc6-43bf-a9c1-815e3a42b3a0"
+            },
+            "ending_in": {
+                "S": "81801"
+            },
+            "search_resource": {
+                "S": "ACCOUNT#DELETED#2019-09-29T00:00:00"
+            },
+            "external_id": {
+                "S": "ABA782"
+            },
+            "id": {
+                "S": "aefc7b70-9ead-4f82-98d2-9649d693025a"
+            },
+            "org_corp": {
+                "S": "e4c82a64-9bac-45a6-94ab-0af6352f01cb#13afc650-1d5c-4f71-a164-55209b11d299"
+            },
+            "corporation_id": {
+                "S": "13afc650-1d5c-4f71-a164-55209b11d299"
+            }
+        },
+        {
+            "created_at": {
+                "S": "2019-09-29T00:00:00.000"
+            },
+            "partition_key": {
+                "S": "e4c82a64-9bac-45a6-94ab-0af6352f01cb#13afc650-1d5c-4f71-a164-55209b11d299#b41ae4b4-4d81-4947-949b-5300d717fc4f"
+            },
+            "currency_code": {
+                "S": "MXN"
+            },
+            "lorem_contract_id": {
+                "S": "ee1aa654-531c-41e8-a857-035912b7c692"
+            },
+            "filters": {
+                "S": "DELETED#2019-09-29T00:00:00"
+            },
+            "org_id": {
+                "S": "e4c82a64-9bac-45a6-94ab-0af6352f01cb"
+            },
+            "number": {
+                "S": "0fe1e4c2-6857-405f-8ac9-622ce1fe731c"
+            },
+            "ending_in": {
+                "S": "81585"
+            },
+            "search_resource": {
+                "S": "ACCOUNT#DELETED#2019-09-29T00:00:00"
+            },
+            "external_id": {
+                "S": "ABA474"
+            },
+            "id": {
+                "S": "b41ae4b4-4d81-4947-949b-5300d717fc4f"
+            },
+            "org_corp": {
+                "S": "e4c82a64-9bac-45a6-94ab-0af6352f01cb#13afc650-1d5c-4f71-a164-55209b11d299"
+            },
+            "corporation_id": {
+                "S": "13afc650-1d5c-4f71-a164-55209b11d299"
+            }
+        }
+    ],
+    "Count": 44,
+    "ScannedCount": 44,
+    "ConsumedCapacity": {
+        "TableName": "am-accounts-test",
+        "CapacityUnits": 3.5
+    }
+}

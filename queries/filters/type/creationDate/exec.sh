@@ -5,4 +5,4 @@ aws dynamodb query \
     --key-condition-expression "org_corp = :org_corp AND begins_with(filters, :filters)" \
     --expression-attribute-values file://expression.json \
     --return-consumed-capacity TOTAL \
-> result.json
+> result10000.json

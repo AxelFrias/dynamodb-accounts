@@ -1,0 +1,51 @@
+{
+    "Items": [
+        {
+            "created_at": {
+                "S": "2019-01-01T00:00:00.000"
+            },
+            "partition_key": {
+                "S": "e4c82a64-9bac-45a6-94ab-0af6352f01cb#13afc650-1d5c-4f71-a164-55209b11d299#ffefcdb6-3eed-415f-b42d-d87f1116db22"
+            },
+            "currency_code": {
+                "S": "MXN"
+            },
+            "lorem_contract_id": {
+                "S": "31afd483-20b5-43c0-95cb-a42d6b0e3074"
+            },
+            "filters": {
+                "S": "OWNER#2019-01-01T00:00:00.000"
+            },
+            "org_id": {
+                "S": "e4c82a64-9bac-45a6-94ab-0af6352f01cb"
+            },
+            "number": {
+                "S": "6e36a15f-3662-44b5-bfd0-96a630d2e47b"
+            },
+            "ending_in": {
+                "S": "81734"
+            },
+            "search_resource": {
+                "S": "ACCOUNT#OWNER#2019-01-01T00:00:00.000"
+            },
+            "external_id": {
+                "S": "AAA186"
+            },
+            "id": {
+                "S": "ffefcdb6-3eed-415f-b42d-d87f1116db22"
+            },
+            "org_corp": {
+                "S": "e4c82a64-9bac-45a6-94ab-0af6352f01cb#13afc650-1d5c-4f71-a164-55209b11d299"
+            },
+            "corporation_id": {
+                "S": "13afc650-1d5c-4f71-a164-55209b11d299"
+            }
+        }
+    ],
+    "Count": 1,
+    "ScannedCount": 522,
+    "ConsumedCapacity": {
+        "TableName": "am-accounts-test",
+        "CapacityUnits": 38.5
+    }
+}

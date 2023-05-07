@@ -4,7 +4,9 @@ namespace am.accounts.commons.Repository
 {
     using Amazon.DynamoDBv2;
     using Amazon.DynamoDBv2.DataModel;
+    using Amazon.DynamoDBv2.DocumentModel;
     using Amazon.DynamoDBv2.Model;
+    using Amazon.Runtime.Internal.Transform;
     using System.Globalization;
 
     public class AccountRepository : IAccountRepository
@@ -47,6 +49,7 @@ namespace am.accounts.commons.Repository
                 {
                     PutRequest = new PutRequest
                     {
+                        
                         Item = AccountToDictionary(account, filter)
                     },
                 });
@@ -104,6 +107,72 @@ namespace am.accounts.commons.Repository
         public Task InsertSubaccountAsync(Subaccount subaccount)
         {
             throw new NotImplementedException();
+        }
+
+        public async Task UpdateAccountAsync(Account account)
+        {
+            var client = new AmazonDynamoDBClient();
+            var context = new DynamoDBContext(client);
+            var request = new TransactWriteItemsRequest();
+
+            var queryResults = await client.QueryAsync(new QueryRequest
+            {
+                TableName = "am-accounts-test",
+                KeyConditionExpression = "partition_key = :partition_key",
+                ExpressionAttributeValues = new Dictionary<string, AttributeValue>
+                {
+                    { ":partition_key", new AttributeValue { S = "e4c82a64-9bac-45a6-94ab-0af6352f01cb#2589e7c2-3f33-4d44-8714-fcfa11eded0e#5675def4-365b-4ce8-be44-6db134db087d"} }
+                },
+                ReturnConsumedCapacity = new ReturnConsumedCapacity("TOTAL"),
+            });
+
+            Console.WriteLine(queryResults.ConsumedCapacity.CapacityUnits);
+            var writeRequest = new List<WriteRequest>();
+            foreach (var item in queryResults.Items)
+            {
+                item.TryGetValue("partition_key", out var partitionKeyValue);
+                item.TryGetValue("search_resource", out var searchResourceValue);
+
+                writeRequest.Add(new WriteRequest
+                {
+                    DeleteRequest = new DeleteRequest
+                    {
+                        Key = new Dictionary<string, AttributeValue>
+                        {
+                            { "partition_key", partitionKeyValue },
+                            { "search_resource", searchResourceValue }
+                        },
+                    }
+                });
+            }
+            var result = await client.BatchWriteItemAsync(new Dictionary<string, List<WriteRequest>>
+            {
+                { "am-accounts-test", writeRequest},
+            });
+
+            foreach (var item in result.ConsumedCapacity)
+            {
+                Console.Write($"CU {item.CapacityUnits}");
+            }
+            var filters = CreateFilters(account);
+            foreach (var f in filters)
+            {
+                request.TransactItems.Add(new TransactWriteItem
+                {
+                    Put = new Put
+                    {
+                        TableName = "am-accounts-test",
+                        Item = AccountToDictionary(account, f)
+                    }
+                }); ;
+            }
+            var response = await client.TransactWriteItemsAsync(request);
+            foreach (var item in response.ConsumedCapacity)
+            {
+                Console.Write($"CU {item.CapacityUnits}");
+            }
+
+            Console.Write(response);
         }
     }
 }

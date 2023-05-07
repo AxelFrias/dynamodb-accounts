@@ -1,0 +1,256 @@
+{
+    "Items": [
+        {
+            "created_at": {
+                "S": "2019-03-20T00:00:00.000"
+            },
+            "partition_key": {
+                "S": "e4c82a64-9bac-45a6-94ab-0af6352f01cb#13afc650-1d5c-4f71-a164-55209b11d299#496e0c25-c705-44dd-8042-cdfde8cc594c"
+            },
+            "currency_code": {
+                "S": "MXN"
+            },
+            "lorem_contract_id": {
+                "S": "b9466c1f-a237-4c55-bb0a-4c9ed5fa2b55"
+            },
+            "filters": {
+                "S": "OWNER#2019-03-20T00:00:00.000"
+            },
+            "org_id": {
+                "S": "e4c82a64-9bac-45a6-94ab-0af6352f01cb"
+            },
+            "number": {
+                "S": "81ae8386-5f3d-45e9-bfe3-c6d57c376202"
+            },
+            "ending_in": {
+                "S": "81099"
+            },
+            "search_resource": {
+                "S": "ACCOUNT#OWNER#2019-03-20T00:00:00.000"
+            },
+            "external_id": {
+                "S": "ABA115"
+            },
+            "id": {
+                "S": "496e0c25-c705-44dd-8042-cdfde8cc594c"
+            },
+            "org_corp": {
+                "S": "e4c82a64-9bac-45a6-94ab-0af6352f01cb#13afc650-1d5c-4f71-a164-55209b11d299"
+            },
+            "corporation_id": {
+                "S": "13afc650-1d5c-4f71-a164-55209b11d299"
+            }
+        },
+        {
+            "created_at": {
+                "S": "2019-04-10T00:00:00.000"
+            },
+            "partition_key": {
+                "S": "e4c82a64-9bac-45a6-94ab-0af6352f01cb#13afc650-1d5c-4f71-a164-55209b11d299#0029bd3a-bf71-453f-8f6a-471fe8c72f47"
+            },
+            "currency_code": {
+                "S": "MXN"
+            },
+            "lorem_contract_id": {
+                "S": "8e6d244c-a7a2-4b3e-b098-1258afd67a30"
+            },
+            "filters": {
+                "S": "OWNER#2019-04-10T00:00:00.000"
+            },
+            "org_id": {
+                "S": "e4c82a64-9bac-45a6-94ab-0af6352f01cb"
+            },
+            "number": {
+                "S": "f1cc75b3-41a9-48d8-85a0-3cc864df6fea"
+            },
+            "ending_in": {
+                "S": "82871"
+            },
+            "search_resource": {
+                "S": "ACCOUNT#OWNER#2019-04-10T00:00:00.000"
+            },
+            "external_id": {
+                "S": "ABA862"
+            },
+            "id": {
+                "S": "0029bd3a-bf71-453f-8f6a-471fe8c72f47"
+            },
+            "org_corp": {
+                "S": "e4c82a64-9bac-45a6-94ab-0af6352f01cb#13afc650-1d5c-4f71-a164-55209b11d299"
+            },
+            "corporation_id": {
+                "S": "13afc650-1d5c-4f71-a164-55209b11d299"
+            }
+        },
+        {
+            "created_at": {
+                "S": "2019-08-04T00:00:00.000"
+            },
+            "partition_key": {
+                "S": "e4c82a64-9bac-45a6-94ab-0af6352f01cb#13afc650-1d5c-4f71-a164-55209b11d299#098d1678-b773-4b52-9a3f-5b381f7fca31"
+            },
+            "currency_code": {
+                "S": "MXN"
+            },
+            "lorem_contract_id": {
+                "S": "da29bd13-b7f0-4216-bee6-e81816e4bd5b"
+            },
+            "filters": {
+                "S": "OWNER#2019-08-04T00:00:00.000"
+            },
+            "org_id": {
+                "S": "e4c82a64-9bac-45a6-94ab-0af6352f01cb"
+            },
+            "number": {
+                "S": "041cb8e3-9d2a-4dd4-b809-92706a248142"
+            },
+            "ending_in": {
+                "S": "80912"
+            },
+            "search_resource": {
+                "S": "ACCOUNT#OWNER#2019-08-04T00:00:00.000"
+            },
+            "external_id": {
+                "S": "AAA110"
+            },
+            "id": {
+                "S": "098d1678-b773-4b52-9a3f-5b381f7fca31"
+            },
+            "org_corp": {
+                "S": "e4c82a64-9bac-45a6-94ab-0af6352f01cb#13afc650-1d5c-4f71-a164-55209b11d299"
+            },
+            "corporation_id": {
+                "S": "13afc650-1d5c-4f71-a164-55209b11d299"
+            }
+        },
+        {
+            "created_at": {
+                "S": "2019-08-05T00:00:00.000"
+            },
+            "partition_key": {
+                "S": "e4c82a64-9bac-45a6-94ab-0af6352f01cb#13afc650-1d5c-4f71-a164-55209b11d299#d93f8e38-856c-4ed8-8083-8949e24384c5"
+            },
+            "currency_code": {
+                "S": "MXN"
+            },
+            "lorem_contract_id": {
+                "S": "f7d82fa4-2a40-4fdc-85fb-0de9d2059a81"
+            },
+            "filters": {
+                "S": "OWNER#2019-08-05T00:00:00.000"
+            },
+            "org_id": {
+                "S": "e4c82a64-9bac-45a6-94ab-0af6352f01cb"
+            },
+            "number": {
+                "S": "ded14836-b04f-429c-bb49-33a74c85b160"
+            },
+            "ending_in": {
+                "S": "80719"
+            },
+            "search_resource": {
+                "S": "ACCOUNT#OWNER#2019-08-05T00:00:00.000"
+            },
+            "external_id": {
+                "S": "ABA414"
+            },
+            "id": {
+                "S": "d93f8e38-856c-4ed8-8083-8949e24384c5"
+            },
+            "org_corp": {
+                "S": "e4c82a64-9bac-45a6-94ab-0af6352f01cb#13afc650-1d5c-4f71-a164-55209b11d299"
+            },
+            "corporation_id": {
+                "S": "13afc650-1d5c-4f71-a164-55209b11d299"
+            }
+        },
+        {
+            "created_at": {
+                "S": "2019-08-20T00:00:00.000"
+            },
+            "partition_key": {
+                "S": "e4c82a64-9bac-45a6-94ab-0af6352f01cb#13afc650-1d5c-4f71-a164-55209b11d299#c7cbaf4c-7694-4765-80dd-05d251f91a7d"
+            },
+            "currency_code": {
+                "S": "MXN"
+            },
+            "lorem_contract_id": {
+                "S": "86e0dedb-91ad-4269-9e18-ccdf82af7a97"
+            },
+            "filters": {
+                "S": "OWNER#2019-08-20T00:00:00.000"
+            },
+            "org_id": {
+                "S": "e4c82a64-9bac-45a6-94ab-0af6352f01cb"
+            },
+            "number": {
+                "S": "6d0f714c-8b4e-4e1a-b3c3-0c064488ef20"
+            },
+            "ending_in": {
+                "S": "81513"
+            },
+            "search_resource": {
+                "S": "ACCOUNT#OWNER#2019-08-20T00:00:00.000"
+            },
+            "external_id": {
+                "S": "AAA541"
+            },
+            "id": {
+                "S": "c7cbaf4c-7694-4765-80dd-05d251f91a7d"
+            },
+            "org_corp": {
+                "S": "e4c82a64-9bac-45a6-94ab-0af6352f01cb#13afc650-1d5c-4f71-a164-55209b11d299"
+            },
+            "corporation_id": {
+                "S": "13afc650-1d5c-4f71-a164-55209b11d299"
+            }
+        },
+        {
+            "created_at": {
+                "S": "2019-09-07T00:00:00.000"
+            },
+            "partition_key": {
+                "S": "e4c82a64-9bac-45a6-94ab-0af6352f01cb#13afc650-1d5c-4f71-a164-55209b11d299#6b0069cf-df5e-43dc-9e4b-240c62ac9e95"
+            },
+            "currency_code": {
+                "S": "MXN"
+            },
+            "lorem_contract_id": {
+                "S": "c912cf65-0caa-42dc-b9a7-6832a9426ac2"
+            },
+            "filters": {
+                "S": "OWNER#2019-09-07T00:00:00.000"
+            },
+            "org_id": {
+                "S": "e4c82a64-9bac-45a6-94ab-0af6352f01cb"
+            },
+            "number": {
+                "S": "9d5ac1b0-8dde-47e0-8399-0c463580075b"
+            },
+            "ending_in": {
+                "S": "80601"
+            },
+            "search_resource": {
+                "S": "ACCOUNT#OWNER#2019-09-07T00:00:00.000"
+            },
+            "external_id": {
+                "S": "AAA893"
+            },
+            "id": {
+                "S": "6b0069cf-df5e-43dc-9e4b-240c62ac9e95"
+            },
+            "org_corp": {
+                "S": "e4c82a64-9bac-45a6-94ab-0af6352f01cb#13afc650-1d5c-4f71-a164-55209b11d299"
+            },
+            "corporation_id": {
+                "S": "13afc650-1d5c-4f71-a164-55209b11d299"
+            }
+        }
+    ],
+    "Count": 6,
+    "ScannedCount": 6,
+    "ConsumedCapacity": {
+        "TableName": "am-accounts-test",
+        "CapacityUnits": 0.5
+    }
+}

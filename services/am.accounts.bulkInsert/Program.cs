@@ -57,9 +57,11 @@ string CreateExternalId()
 
 DateTime CreateRandomDate()
 {
-    var randomYear = rnd.Next(2019, 2022);
-    var randomMonth = rnd.Next(1, 12);
-    var randomDay = rnd.Next(1, 30);
+    Random rndDate = new();
+
+    var randomYear = rndDate.Next(2019, 2022);
+    var randomMonth = rndDate.Next(1, 12);
+    var randomDay = rndDate.Next(1, (randomMonth == 2) ? 28 : 30);
     return new DateTime(randomYear, randomMonth, randomDay);
 };
 

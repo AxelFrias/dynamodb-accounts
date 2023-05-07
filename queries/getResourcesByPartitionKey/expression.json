@@ -1,0 +1,4 @@
+{
+    ":partition_key": {"S": "e4c82a64-9bac-45a6-94ab-0af6352f01cb#13afc650-1d5c-4f71-a164-55209b11d299#4c0e400e-9575-489f-82b9-e503aa63f362"},
+    ":search_resource": {"S": "ACCOUNT"}
+}
